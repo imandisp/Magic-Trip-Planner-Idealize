@@ -31,6 +31,7 @@ class PlaceSearchService:
             "format": "jsonv2",
             "addressdetails": 1,
             "extratags": 1,
+            "namedetails": 1,
             "limit": limit,
         }
 
@@ -85,7 +86,7 @@ class PlaceSearchService:
         return {
             "place_key": self._make_place_key(item.get("id") or display_name),
             "name": display_name,
-            "display_name": address,
+            "display_name": f"{display_name}, {address}" if address != display_name else display_name,
             "category": self._map_google_category(item),
             "source": "user_added",
             "short_description": f"Google Places result near {destination}. Verify opening hours before visiting.",
@@ -96,7 +97,7 @@ class PlaceSearchService:
             "availability_warnings": ["Opening hours and ticket availability are not yet verified."],
             "osm_type": None,
             "osm_id": None,
-            "search_query": address,
+            "search_query": f"{display_name}, {address}",
         }
 
     def _map_google_category(self, item: dict) -> str:
@@ -117,6 +118,10 @@ class PlaceSearchService:
         return "other"
 
     def _extract_name(self, item: dict, fallback: str) -> str:
+        namedetails = item.get("namedetails") or {}
+        name = namedetails.get("name:en") or namedetails.get("name") or item.get("name")
+        if name:
+            return name
         address = item.get("address") or {}
 
         for key in [

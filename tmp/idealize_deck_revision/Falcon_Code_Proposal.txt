@@ -1,0 +1,170 @@
+
+
+===== PAGE =====
+
+Falcon_Code
+Web
+Open
+Agentic AI Travel Planning 
+MagicTripPlanner
+Proposal Guideline
+
+===== PAGE =====
+
+● T eam Leader Name  : Vibodha Lakshan
+● University/School : University of Moratuwa
+● NIC No : 200404011049
+● Email : vibodhalakshan@gmail.com
+● Contact Number : 0701252365
+● T eam Member Name : Imandi Perera
+● University/School : University of Moratuwa
+● NIC No : 200476001229
+● Email : imandisp04@gmail.com 
+● Contact Number : 0782744764
+
+
+===== PAGE =====
+
+● T eam Member Name : Ravindu Peiris
+● University/School : University of Moratuwa
+● NIC No : 200405512853
+● Email : ravigayanga2004@gmail.com 
+● Contact Number : 0701000968
+● T eam Member Name : Vishwa Shrinath
+● University/School : University of Moratuwa
+● NIC No : 200425700457
+● Email : vishwasrinathgallage@gmail.com
+● Contact Number : 0713455941
+
+
+===== PAGE =====
+
+● T eam Member Name : Chamod Madubhashana
+● University/School : University of Moratuwa
+● NIC No :  200428904643
+● Email : chamodmadubhashana1@gmail.com
+● Contact Number : 0761760434
+
+
+===== PAGE =====
+
+Problem Statement 
+Current travel planning platforms generate static itineraries that fail to adapt to real world conditions. 
+Travelers must manually compare weather forecasts, routes, accommodation options, transportation 
+methods, attraction information, and reviews across multiple disconnected platforms.
+Most existing travel applications focus only on finding the shortest route rather than the best travel 
+experience. They often ignore important factors such as attraction timing, sunrise and sunset 
+opportunities, weather conditions, road closures, transportation availability, safety concerns, and personal 
+travel preferences.
+Furthermore, online reviews frequently become outdated, causing travelers to make decisions based on 
+information that no longer reflects the actual condition of destinations, accommodations, and attractions.
+As a result, travelers experience decision fatigue, inefficient planning, and unexpected disruptions during 
+their journeys.
+
+===== PAGE =====
+
+Application Blueprint 
+● MagicTripPlanner is an AI powered travel orchestration platform that transforms travel planning from a 
+static process into an intelligent, adaptive experience.
+● Users provide their travel requirements including destination, travel dates, starting location, transportation 
+method, budget range, accommodation preferences, and interests through an intuitive web interface.
+● The platform then:
+○ Discovers attractions along the travel route and near the destination.
+○ Calculates estimated transportation and travel costs.
+○ Recommends accommodations, restaurants, and activities.
+○ Creates experience-optimized itineraries rather than shortest-path itineraries.
+○ Visualizes routes through interactive maps and timelines.
+○ Continuously monitors weather conditions and travel disruptions.
+○ Dynamically replans itineraries when unexpected events occur.
+○ Learns from previous trips and user preferences.
+○ Utilizes community-generated travel experiences and reviews to provide accurate recommendations.
+○ Maintains continuous human-AI interaction throughout the planning process to better understand user preferences, gather 
+feedback, refine recommendations, and personalize the travel experience in real time.
+
+
+===== PAGE =====
+
+Agentic AI Integration
+MagicTripPlanner utilizes a collaborative multi-agent architecture where specialized AI agents work together to plan and optimize 
+travel experiences.
+1.Conversation Agent
+  Collects travel requirements and user preferences through natural language interaction.
+2.Attraction Discovery Agent
+  Identifies attractions, restaurants, activities, and hidden gems based on the user's route, interests, and destination.
+3.Schedule Optimization Agent
+  Generates optimal itineraries
+4.Route Optimization Agent
+  Calculates safe and efficient travel routes using real-time mapping and transportation data.
+5.Hotel Recommendation Agent
+  Suggests accommodations based on budget, location preferences, ratings, and user interests.
+6.Budget Agent
+  Calculates estimated expenses including transportation, accommodation, meals, and activity costs.
+7.Weather & Replanning Agent
+  Monitors environmental conditions and automatically modifies itineraries   when disruptions occur.
+8.Community Intelligence RAG Agent
+  Retrieves information from:Previous user trips,User travel preferences, Community reviews,Recent destination feedback
+
+===== PAGE =====
+
+Technical Architecture & Feasibility 
+● Frontend
+○ Next.js
+○ TypeScript
+○ Tailwind CSS
+○ Interactive Maps (Google Maps / 
+OpenStreetMap / Mapbox )
+● Backend
+○ Python
+○ FastAPI
+○ LangGraph
+○ SQLAlchemy
+● Database
+○ PostgreSQL
+○ ChromaDB (Vector Database)
+● AI Engine
+○ Gemini API
+○ Tool Calling
+○ RAG
+● External APIs
+○ Google Maps API
+○ Google Places API
+○ OpenStreetMap API
+○ OpenWeather API
+
+
+===== PAGE =====
+
+Market Potential
+● Target Users
+○ Domestic travelers
+○ International tourists
+○ Family travelers
+○ Group travel planners
+● Value Proposition
+MagicTripPlanner provides an intelligent travel planning experience that continuously reasons about weather conditions, 
+attraction timings, transportation options, budget limitations, and personal preferences.
+Unlike traditional travel applications, MagicTripPlanner actively manages and adapts travel plans rather than simply generating 
+itineraries.
+● Competitive Advantage
+○ Experience based route optimization
+○ Dynamic itinerary adaptation
+○ Multi agent decision making
+○ Community powered travel intelligence
+○ Personalized recommendation engine
+
+===== PAGE =====
+
+Sustainability & Long-Term Impact
+● MagicTripPlanner is designed using a scalable and modular architecture that supports future expansion 
+and continuous improvement.
+● The platform can collaborate with transportation services such as Uber, PickMe and HelaGo to help 
+travelers access convenient and real-time transportation options during their journeys.
+● MagicTripPlanner can collaborate with hotels and accommodation providers to offer personalized hotel 
+recommendations, live availability, and improved booking experiences.
+● The platform can introduce a verified tourist guide hiring feature, allowing travelers to connect with local 
+guides based on destination, language, and travel interests.
+● MagicTripPlanner is designed to support future international travel planning beyond Sri Lanka.
+
+
+===== PAGE =====
+

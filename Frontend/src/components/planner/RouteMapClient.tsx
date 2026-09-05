@@ -1,7 +1,7 @@
 "use client";
 
 import L from "leaflet";
-import { MapContainer, Marker, Polyline, Popup, TileLayer, useMap } from "react-leaflet";
+import { MapContainer, Marker, Polyline, Popup, Tooltip, TileLayer, useMap } from "react-leaflet";
 import { useEffect } from "react";
 import type { Hotel, RouteDay, RouteStop } from "@/lib/api/types";
 import { minutes } from "@/lib/utils/format";
@@ -78,9 +78,10 @@ function FitRouteBounds({ days, hotels }: { days: RouteDay[]; hotels: Hotel[] })
       return day.segments.flatMap((segment) => segment.path_coordinates || []);
     });
     const hotelCoordinates = hotels
-      .filter((hotel) => !hotel.hotel_key?.startsWith("google:") && hotel.latitude != null && hotel.longitude != null)
+      .filter((hotel) => hotel.latitude != null && hotel.longitude != null)
       .map((hotel) => ({ latitude: hotel.latitude!, longitude: hotel.longitude! }));
-    const coordinates = [...routeCoordinates, ...hotelCoordinates].filter(
+    const stopCoordinates = days.flatMap((day) => day.stops || []).filter((stop) => stop.latitude != null && stop.longitude != null).map((stop) => ({ latitude: stop.latitude!, longitude: stop.longitude! }));
+    const coordinates = [...routeCoordinates, ...stopCoordinates, ...hotelCoordinates].filter(
       (point) => Number.isFinite(point.latitude) && Number.isFinite(point.longitude),
     );
 
@@ -153,6 +154,7 @@ export default function RouteMapClient({
             icon={icon}
             eventHandlers={{ click: () => onSelectStop(stop) }}
           >
+            <Tooltip direction="top" offset={[0, -32]} opacity={1}><strong>{stop.name}</strong></Tooltip>
             <Popup maxWidth={260} className="route-popup">
               <div className="min-w-[220px] p-1">
                 <p className="text-sm font-black text-slate-900">{stop.name}</p>
@@ -187,13 +189,14 @@ export default function RouteMapClient({
 
       {/* Hotel markers */}
       {hotels
-        .filter((hotel) => !hotel.hotel_key?.startsWith("google:") && hotel.latitude != null && hotel.longitude != null)
+        .filter((hotel) => hotel.latitude != null && hotel.longitude != null)
         .map((hotel) => (
           <Marker
-            key={hotel.hotel_key || hotel.name}
+            key={`${hotel.day_number ?? "stay"}-${hotel.hotel_key || hotel.name}`}
             position={[hotel.latitude!, hotel.longitude!]}
             icon={hotelIconInstance}
           >
+            <Tooltip direction="top" offset={[0, -18]} opacity={1}><strong>{hotel.name}</strong>{hotel.day_number ? ` · Day ${hotel.day_number}` : ""}</Tooltip>
             <Popup maxWidth={240}>
               <div className="min-w-[200px] p-1">
                 <p className="text-sm font-black text-slate-900">{hotel.name}</p>

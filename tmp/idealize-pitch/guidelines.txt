@@ -1,0 +1,61 @@
+=== PAGE 1 ===
+powered by
+SSSEEEMMMIII---FFFIIINNNAAALLLSSS SSSUUUBBBMMMIIISSSSSSIIIOOONNN GGGUUUIIIDDDEEELLLIIINNNEEESSS
+Organized by
+AIESEC in University of Moratuwa
+
+=== PAGE 2 ===
+App Prototype Submission Requirements
+You must submit a working version of your application prior to the pitch. Ensure all links are publicly
+accessible and require no special permissions to view.
+For Web Applications:
+Submit a Live Hosted Link (e.g., via Vercel, Netlify, Firebase, AWS, etc.).
+Ensure the site is fully deployed and responsive.
+For Mobile Applications (Android):
+Submit a functional .apk file.
+Upload the .apk to Google drive and submit the shared link. Ensure the access is set to "Anyone with
+the link".
+For Mobile Applications (iOS):
+Submit a TestFlight link or a comprehensive screen-recording demo if live deployment is restricted.
+02
+
+=== PAGE 3 ===
+Presentation Deck
+During the semi-finals, you will pitch your solution to the judges.
+Submit your final presentation slide deck (PDF format recommended to preserve
+formatting).
+Your pitch should cover the problem, your solution, market feasibility, and future scalability.
+03
+
+=== PAGE 4 ===
+How to Submit
+All materials (App Links, APKs, and Pitch Decks) must be submitted through the official
+IDEALIZE 2026 submission form.
+Deadline: 01st of September | 11:59 PM
+Subnmit Here
+click.aiesec.lk/cs/idealize-2026-semi-finals-submission
+04
+
+=== PAGE 5 ===
+Contact us
+Thisuka De Silva
+Organizing Committee President
+IDEALIZE 2026
+AIESEC in University of Moratuwa
++94 75 892 4827
+thisukadesilva@aiesec.net
+Thejake Dissanayake Methmi Weerasekara
+Organizing Committee Vice Organizing Committee Vice
+President - Delegates President - Delegates
+IDEALIZE - 2026 IDEALIZE - 2026
+AIESEC in University of Moratuwa AIESEC in University of Moratuwa
++94 70 353 4431
++94 76 488 0834
+thejake.dissanayake@aiesec.net
+methmi.weerasekara@aiesec.net
+05
+
+=== PAGE 6 ===
+TT HH AA NN KK YY OO UU
+Organized by
+AIESEC in University of Moratuwa

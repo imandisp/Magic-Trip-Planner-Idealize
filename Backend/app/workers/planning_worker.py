@@ -67,7 +67,7 @@ def _run_full_plan(db: Session, job: PlanningJob) -> dict:
 
     places = []
     skipped_unlocated_places: list[str] = []
-    if resume_route:
+    if resume_route or payload.get("use_selected_places", True):
         places = db.query(SelectedPlace).filter(SelectedPlace.trip_id == trip.id).all()
         resume_route = bool(places)
 

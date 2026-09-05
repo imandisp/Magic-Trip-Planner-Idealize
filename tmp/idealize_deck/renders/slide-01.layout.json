@@ -1,0 +1,521 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/act58v",
+    "id": "act58v",
+    "slide": 1,
+    "layoutId": "ccd0dd7d-c61c-4921-ac46-9ad0964044a6",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4eb3ef3c-bc09-4993-855a-199ae7de2ce3",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#0D4A3B",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ccd0dd7d-c61c-4921-ac46-9ad0964044a6",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4eb3ef3c-bc09-4993-855a-199ae7de2ce3",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4eb3ef3c-bc09-4993-855a-199ae7de2ce3",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4z21cra",
+      "id": "1",
+      "name": "cover-image-backing",
+      "bbox": [
+        650,
+        0,
+        630,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFDF8",
+      "lineColor": "#FFFDF8",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/fy9k7i54",
+      "id": "2",
+      "bbox": [
+        650,
+        0,
+        630,
+        720
+      ],
+      "alt": "Implemented Magic Trip Planner sign-in experience",
+      "contentType": "image/jpeg",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "37f95ad6-3005-4d2b-b43c-a717139d9acb",
+        "contentType": "image/jpeg",
+        "byteLength": 21957
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32hkzm9k",
+      "id": "3",
+      "name": "rect-624-0",
+      "bbox": [
+        624,
+        0,
+        26,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#D96B32",
+      "lineColor": "#D96B32",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7qlwrq1",
+      "id": "4",
+      "name": "cover-kicker",
+      "bbox": [
+        54,
+        50,
+        510,
+        34
+      ],
+      "geometry": "rect",
+      "text": "IDEALIZE 2026  /  SEMI-FINALS",
+      "textPreview": "IDEALIZE 2026  /  SEMI-FINALS",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Arial",
+        "color": "#F8E1D5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IDEALIZE 2026  /  SEMI-FINALS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IDEALIZE 2026  /  SEMI-FINALS",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Arial",
+            "color": "#F8E1D5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IDEALIZE 2026  /  SEMI-FINALS",
+              "fontSize": 17,
+              "typeface": "Arial",
+              "color": "#F8E1D5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dszm5w7m",
+      "id": "5",
+      "name": "cover-title",
+      "bbox": [
+        54,
+        142,
+        520,
+        180
+      ],
+      "geometry": "rect",
+      "text": "Magic Trip\nPlanner",
+      "textPreview": "Magic Trip | Planner",
+      "resolvedFontSize": 66,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 66,
+        "typeface": "Arial",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Magic Trip"
+          },
+          {
+            "index": 2,
+            "text": "Planner"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Magic Trip",
+          "resolvedTextStyle": {
+            "fontSize": 66,
+            "typeface": "Arial",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Magic Trip",
+              "fontSize": 66,
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Planner",
+          "resolvedTextStyle": {
+            "fontSize": 66,
+            "typeface": "Arial",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Planner",
+              "fontSize": 66,
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q583uh8v",
+      "id": "6",
+      "name": "cover-tagline",
+      "bbox": [
+        54,
+        366,
+        500,
+        106
+      ],
+      "geometry": "rect",
+      "text": "Less planning.\nMore going.",
+      "textPreview": "Less planning. | More going.",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Arial",
+        "color": "#DCEBE4",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Less planning."
+          },
+          {
+            "index": 2,
+            "text": "More going."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Less planning.",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Arial",
+            "color": "#DCEBE4",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Less planning.",
+              "fontSize": 38,
+              "typeface": "Arial",
+              "color": "#DCEBE4",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "More going.",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Arial",
+            "color": "#DCEBE4",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "More going.",
+              "fontSize": 38,
+              "typeface": "Arial",
+              "color": "#DCEBE4",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r6hk3m9g",
+      "id": "7",
+      "name": "cover-summary",
+      "bbox": [
+        54,
+        520,
+        520,
+        86
+      ],
+      "geometry": "rect",
+      "text": "AI-assisted Sri Lanka itineraries that connect places, routes, stays, and costs in one restorable plan.",
+      "textPreview": "AI-assisted Sri Lanka itineraries that connect places, routes, stays, and costs in one restorable plan.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Arial",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI-assisted Sri Lanka itineraries that connect places,"
+          },
+          {
+            "index": 2,
+            "text": "routes, stays, and costs in one restorable plan."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI-assisted Sri Lanka itineraries that connect places, routes, stays, and costs in one restorable plan.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Arial",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI-assisted Sri Lanka itineraries that connect places, routes, stays, and costs in one restorable plan.",
+              "fontSize": 20,
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0val0rqx",
+      "id": "8",
+      "name": "text-54-656",
+      "bbox": [
+        54,
+        656,
+        390,
+        22
+      ],
+      "geometry": "rect",
+      "text": "WEB APPLICATION PITCH DECK",
+      "textPreview": "WEB APPLICATION PITCH DECK",
+      "resolvedFontSize": 10.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Arial",
+        "color": "#F8E1D5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.74,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "WEB APPLICATION PITCH DECK"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "WEB APPLICATION PITCH DECK",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Arial",
+            "color": "#F8E1D5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "WEB APPLICATION PITCH DECK",
+              "fontSize": 14,
+              "typeface": "Arial",
+              "color": "#F8E1D5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

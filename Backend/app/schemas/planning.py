@@ -7,6 +7,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 class FullPlanJobCreate(BaseModel):
     use_saved_preferences: bool = True
+    use_selected_places: bool = True
     interests: list[str] = Field(default_factory=list)
     trip_style: Literal["relaxed", "balanced", "packed"] = "balanced"
     special_notes: str = ""
