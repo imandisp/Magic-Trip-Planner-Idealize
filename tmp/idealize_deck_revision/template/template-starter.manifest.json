@@ -1,0 +1,133 @@
+{
+  "sourcePptx": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\output\\presentation\\Magic_Trip_Planner_IDEALIZE_2026_Semi_Final.pptx",
+  "mapPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-frame-map.json",
+  "output": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter.pptx",
+  "outputBytes": 140434,
+  "sourceSlideCount": 11,
+  "slideCount": 11,
+  "previewDir": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview",
+  "layoutDir": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout",
+  "slides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening cover",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 1,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-01.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-01.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-01.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-01.layout.json"
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "problem description",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 6,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-02.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-02.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-02.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-02.layout.json"
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "preserved source section: solution",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 0,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-03.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-03.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-03.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-03.layout.json"
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "narrativeRole": "preserved source section: product flow",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 0,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-04.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-04.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-04.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-04.layout.json"
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 5,
+      "narrativeRole": "preserved source section: product proof",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 0,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-05.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-05.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-05.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-05.layout.json"
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 6,
+      "narrativeRole": "preserved source section: competitive differentiation",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 0,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-06.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-06.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-06.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-06.layout.json"
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 7,
+      "narrativeRole": "preserved source section: market feasibility",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 0,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-07.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-07.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-07.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-07.layout.json"
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 8,
+      "narrativeRole": "preserved source section: go to market",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 0,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-08.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-08.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-08.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-08.layout.json"
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 9,
+      "narrativeRole": "preserved source section: future scalability architecture",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 0,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-09.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-09.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-09.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-09.layout.json"
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 10,
+      "narrativeRole": "future roadmap",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 2,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-10.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-10.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-10.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-10.layout.json"
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 11,
+      "narrativeRole": "preserved source section: closing call to action",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 0,
+      "previewPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-preview\\starter-slide-11.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-11.png",
+      "layoutPath": "D:\\GitHub\\Magic-Trip-Planner-Idealize\\tmp\\idealize_deck_revision\\template\\template-starter-layout\\starter-slide-11.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-11.layout.json"
+    }
+  ]
+}

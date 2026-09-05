@@ -1,0 +1,4 @@
+Slide 1: Rewrites the existing footer text to identify the team as Falcon Code and the University of Moratuwa. Geometry and style unchanged.
+Slide 2: Rewrites the existing title, overview, consequence statement, and three problem rows to reflect the initial proposal's complete problem description. Geometry and style unchanged.
+Slide 10: Rewrites the existing NEXT and SCALE body text to include community travel intelligence, transportation/hotel integrations, a verified guide marketplace, and international expansion from the proposal. These remain explicitly framed as roadmap items.
+All other slides: no deviation from the starter deck.

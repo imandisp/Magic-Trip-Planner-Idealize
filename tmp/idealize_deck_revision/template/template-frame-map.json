@@ -1,0 +1,94 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening cover",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "sourceElementId": "sh/fu94fe98", "reason": "Add proposal-backed team identity." }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "problem description",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "sourceElementId": "sh/9072xkry", "reason": "State the proposal's central problem." },
+        { "action": "rewrite", "sourceElementId": "sh/a10jqpsj", "reason": "Describe the fragmented planning workflow." },
+        { "action": "rewrite", "sourceElementId": "sh/r65knqtk", "reason": "State traveler consequences from the proposal." },
+        { "action": "rewrite", "sourceElementIds": ["sh/ove9o7yd", "sh/9wnqhczy"], "reason": "Describe fragmented planning." },
+        { "action": "rewrite", "sourceElementIds": ["sh/wjy9sry9", "sh/xk7qlczu"], "reason": "Describe experience blind spots." },
+        { "action": "rewrite", "sourceElementIds": ["sh/cnupgny5", "sh/do3q9szq"], "reason": "Describe static and stale guidance." }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "preserved source section: solution",
+      "reuseMode": "duplicate-slide",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "narrativeRole": "preserved source section: product flow",
+      "reuseMode": "duplicate-slide",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 5,
+      "narrativeRole": "preserved source section: product proof",
+      "reuseMode": "duplicate-slide",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 6,
+      "narrativeRole": "preserved source section: competitive differentiation",
+      "reuseMode": "duplicate-slide",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 7,
+      "narrativeRole": "preserved source section: market feasibility",
+      "reuseMode": "duplicate-slide",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 8,
+      "narrativeRole": "preserved source section: go to market",
+      "reuseMode": "duplicate-slide",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 9,
+      "narrativeRole": "preserved source section: future scalability architecture",
+      "reuseMode": "duplicate-slide",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 10,
+      "narrativeRole": "future roadmap",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "sourceElementId": "sh/0bit8b2d", "reason": "Add community intelligence to the next phase." },
+        { "action": "rewrite", "sourceElementId": "sh/ozitcv29", "reason": "Add proposal-backed ecosystem and international scale items." }
+      ]
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 11,
+      "narrativeRole": "preserved source section: closing call to action",
+      "reuseMode": "duplicate-slide",
+      "editTargets": []
+    }
+  ],
+  "omittedSourceSlides": []
+}

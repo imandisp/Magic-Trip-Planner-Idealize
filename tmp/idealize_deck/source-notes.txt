@@ -1,0 +1,22 @@
+Primary submission brief:
+- D:\IDEALIZE 2026 - SEMI FINALS - SUBMISSION GUIDELINES.pdf
+- Required pitch coverage: problem, solution, market feasibility, future scalability.
+
+Product sources:
+- D:\GitHub\Magic-Trip-Planner-Idealize\README.md
+- D:\GitHub\Magic-Trip-Planner-Idealize\DEPLOYMENT.md
+- Frontend and Backend source files in the repository.
+- Local browser captures under D:\GitHub\Magic-Trip-Planner-Idealize\tmp\idealize_deck\
+
+Market sources:
+- https://sltda.gov.lk/en/monthly-tourist-arrivals-reports-2025
+- https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/publications/aer/2025/en/25_Featured_Chart_08.pdf
+- https://www.sltda.gov.lk/storage/common_media/Sri_Lanka-Final_V6_Edited850147500.pdf
+
+Market figures used:
+- 2024 tourist arrivals: 2,053,465.
+- 2025 tourist arrivals: 2,362,521.
+- 2025 year-over-year growth: 15.1%.
+- 2025 tourism earnings: US$3.219 billion.
+
+Commercial model, segments, and roadmap are explicitly framed as hypotheses or future plans, not current traction or revenue.
