@@ -46,6 +46,7 @@ class GoogleQuotaGuard:
             "weather": settings.GOOGLE_WEATHER_MONTHLY_LIMIT,
             "places_search": settings.GOOGLE_PLACES_SEARCH_MONTHLY_LIMIT,
             "places_details": settings.GOOGLE_PLACES_DETAILS_MONTHLY_LIMIT,
+            "places_photos": settings.GOOGLE_PLACES_PHOTOS_MONTHLY_LIMIT,
             "routes": settings.GOOGLE_ROUTES_MONTHLY_LIMIT,
             "geocoding": settings.GOOGLE_GEOCODING_MONTHLY_LIMIT,
         }

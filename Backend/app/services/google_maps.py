@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import math
 from datetime import date
 from typing import Any
 
@@ -26,6 +27,7 @@ class GoogleMapsService:
             {
                 "weather": settings.GOOGLE_WEATHER_ENABLED,
                 "places": settings.GOOGLE_PLACES_ENABLED,
+                "hotels": settings.GOOGLE_HOTELS_ENABLED,
                 "routes": settings.GOOGLE_ROUTES_ENABLED,
                 "geocoding": settings.GOOGLE_GEOCODING_ENABLED,
                 "transit_fares": settings.GOOGLE_TRANSIT_FARES_ENABLED,
@@ -76,8 +78,12 @@ class GoogleMapsService:
         *,
         included_type: str | None = None,
         strict_type_filtering: bool = False,
+        for_hotels: bool = False,
+        latitude: float | None = None,
+        longitude: float | None = None,
+        radius_km: float = 20,
     ) -> list[dict]:
-        if not self.enabled("places") or not text_query.strip():
+        if not self.enabled("hotels" if for_hotels else "places") or not text_query.strip():
             return []
 
         field_mask = ",".join(
@@ -89,6 +95,7 @@ class GoogleMapsService:
                 "places.primaryType",
                 "places.types",
                 "places.googleMapsUri",
+                "places.businessStatus",
             ]
         )
         request_body: dict[str, Any] = {
@@ -101,6 +108,13 @@ class GoogleMapsService:
             request_body["includedType"] = included_type
             request_body["strictTypeFiltering"] = strict_type_filtering
 
+        if latitude is not None and longitude is not None:
+            lat_delta = radius_km / 111.0
+            lng_delta = lat_delta / max(0.01, math.cos(math.radians(latitude)))
+            request_body["locationRestriction"] = {"rectangle": {
+                "low": {"latitude": max(-90, latitude - lat_delta), "longitude": max(-180, longitude - lng_delta)},
+                "high": {"latitude": min(90, latitude + lat_delta), "longitude": min(180, longitude + lng_delta)},
+            }}
         data = map_http_client.post_json(
             self.PLACES_TEXT_SEARCH_URL,
             json_body=request_body,
@@ -110,10 +124,7 @@ class GoogleMapsService:
                 "X-Goog-FieldMask": field_mask,
             },
             timeout=20,
-            cache_key=(
-                f"google-places:{self._digest(text_query.lower())}:{limit}:"
-                f"{included_type or 'any'}:{int(strict_type_filtering)}"
-            ),
+            cache_key=None,  # Places content must not enter the persistent provider cache.
             context="Google Places text search",
             before_request=lambda: google_quota_guard.reserve("places_search"),
         )

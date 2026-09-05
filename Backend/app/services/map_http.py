@@ -32,6 +32,9 @@ class MapHttpClient:
         adapter = HTTPAdapter(max_retries=retry)
         self._session.mount("https://", adapter)
         self._session.mount("http://", adapter)
+        # A quota reservation authorizes exactly one attempt, including failures.
+        for host in ("places.googleapis.com", "maps.googleapis.com", "routes.googleapis.com", "weather.googleapis.com"):
+            self._session.mount(f"https://{host}/", HTTPAdapter(max_retries=0))
 
     def _wait_for_slot(self, url: str, min_interval_seconds: float):
         if min_interval_seconds <= 0:

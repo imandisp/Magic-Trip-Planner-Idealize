@@ -57,7 +57,7 @@ def test_nearby_hotel_search_is_bounded_and_stops_after_results(monkeypatch):
 
 def test_google_hotel_search_requests_and_keeps_only_lodging(monkeypatch):
     captured = {}
-    monkeypatch.setattr(google_maps_service, "enabled", lambda feature: feature == "places")
+    monkeypatch.setattr(google_maps_service, "enabled", lambda feature: feature == "hotels")
 
     def fake_search(query, limit, **kwargs):
         captured.update({"query": query, "limit": limit, **kwargs})
@@ -86,30 +86,16 @@ def test_google_hotel_search_requests_and_keeps_only_lodging(monkeypatch):
     assert captured["included_type"] == "lodging"
     assert captured["strict_type_filtering"] is True
     assert [item["name"] for item in suggestions] == ["Verified Kandy Hotel"]
-    assert suggestions[0]["image_url"] is None
+    assert suggestions[0]["image_url"].startswith("/hotels/google-photo/real-hotel/")
 
 
-def test_hotel_agent_does_not_attach_ambiguous_open_web_images():
-    result = HotelAgentResponse(
-        trip_id=uuid4(),
-        destination="Ella",
-        nights=1,
-        rooms=1,
-        summary="A verified accommodation option.",
-        recommended_hotels=[
-            HotelRecommendation(
-                name="Villa",
-                area="Ella",
-                image_url="https://example.com/david-villa.jpg",
-                reason_for_recommendation="Near the selected route.",
-            )
-        ],
-    )
-
-    enriched = HotelAgent()._enrich_hotels(SimpleNamespace(destination="Ella"), result)
-
-    assert enriched.recommended_hotels[0].image_url is None
-    assert enriched.recommended_hotels[0].short_description == "Ella Near the selected route."
+def test_hotel_agent_returns_empty_instead_of_inventing_properties(monkeypatch):
+    from app.schemas.hotel import HotelSuggestRequest
+    monkeypatch.setattr(HotelSearchService, "search_hotels", lambda *args, **kwargs: [])
+    trip = SimpleNamespace(id=uuid4(), destination="Ella", start_date=date(2026, 8, 1), end_date=date(2026, 8, 3))
+    result = HotelAgent().suggest_hotels(trip, [], HotelSuggestRequest())
+    assert result.recommended_hotels == []
+    assert result.nights == 2
 
 
 def test_osm_hotel_search_discards_non_accommodation_results(monkeypatch):
@@ -199,3 +185,14 @@ def test_place_media_lookup_still_runs_when_geocoding_fails(monkeypatch):
 def test_haversine_distance_is_local_and_predictable():
     assert _haversine_distance_km(7.0, 80.0, 7.0, 80.0) == 0
     assert _haversine_distance_km(7.0, 80.0, 8.0, 80.0) == pytest.approx(111.19, rel=0.01)
+
+
+def test_google_hotels_exclude_closed_and_distant_properties(monkeypatch):
+    monkeypatch.setattr(google_maps_service, "enabled", lambda _: True)
+    def hotel(place_id, lat, status="OPERATIONAL"):
+        return {"id": place_id, "displayName": {"text": place_id}, "types": ["hotel"],
+                "location": {"latitude": lat, "longitude": 80.0}, "businessStatus": status}
+    monkeypatch.setattr(google_maps_service, "search_places", lambda *a, **kw: [
+        hotel("nearby", 7.01), hotel("far-away", 8.0), hotel("closed", 7.01, "CLOSED_PERMANENTLY")])
+    result = HotelSearchService().search_hotels("hotel", "Kandy", latitude=7.0, longitude=80.0, radius_km=10)
+    assert [item["name"] for item in result] == ["nearby"]

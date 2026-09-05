@@ -1,4 +1,6 @@
 import re
+import math
+import logging
 from urllib.parse import quote, urlparse
 
 from app.services.google_maps import google_maps_service
@@ -47,16 +49,20 @@ class HotelSearchService:
         radius_km: float = 20,
     ):
         google_query = f"{query}, {destination}, {country}"
-        if google_maps_service.enabled("places"):
+        if google_maps_service.enabled("hotels"):
             try:
                 google_results = google_maps_service.search_places(
                     google_query,
                     limit,
                     included_type="lodging",
                     strict_type_filtering=True,
+                    for_hotels=True,
+                    latitude=latitude, longitude=longitude, radius_km=radius_km,
                 )
                 verified_results = [
                     item for item in google_results if self._is_google_lodging(item)
+                    and item.get("businessStatus") not in {"CLOSED_PERMANENTLY", "CLOSED_TEMPORARILY"}
+                    and self._within_radius(item, latitude, longitude, radius_km)
                 ]
                 if verified_results:
                     return [
@@ -64,7 +70,7 @@ class HotelSearchService:
                         for item in verified_results
                     ]
             except Exception:
-                pass
+                logging.getLogger(__name__).warning("Google hotel search unavailable; using OSM lodging results.")
 
         headers = {
             "User-Agent": "MagicTripPlanner/1.0"
@@ -167,6 +173,19 @@ class HotelSearchService:
 
         return suggestions
 
+    @staticmethod
+    def _within_radius(item, latitude, longitude, radius_km):
+        location = item.get("location") or {}
+        if location.get("latitude") is None or location.get("longitude") is None:
+            return False
+        if latitude is None or longitude is None:
+            return True
+        lat1, lat2 = map(math.radians, (latitude, location["latitude"]))
+        dlat = lat2 - lat1
+        dlon = math.radians(location["longitude"] - longitude)
+        a = math.sin(dlat / 2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2)**2
+        return 6371 * 2 * math.asin(min(1, math.sqrt(a))) <= radius_km
+
     def _is_google_lodging(self, item: dict) -> bool:
         types = set(item.get("types") or [])
         if item.get("primaryType"):
@@ -185,11 +204,13 @@ class HotelSearchService:
         )
 
     def _google_suggestion(self, item: dict, destination: str) -> dict:
+        from app.services.hotel_photos import hotel_photo_reference
+
         name = (item.get("displayName") or {}).get("text") or "Accommodation"
         address = item.get("formattedAddress") or destination
         location = item.get("location") or {}
         return {
-            "hotel_key": self._make_hotel_key(item.get("id") or name),
+            "hotel_key": f"google:{item["id"]}" if item.get("id") else self._make_hotel_key(name),
             "name": name,
             "short_description": f"Google Places accommodation result near {destination}. Live room inventory is not included.",
             "hotel_type": self._map_google_hotel_type(item),
@@ -203,9 +224,9 @@ class HotelSearchService:
             "distance_summary": None,
             "reason_for_recommendation": "Accommodation returned by Google Places near the requested area.",
             "amenities": [],
-            "warnings": ["Price and availability are estimates until confirmed with a booking provider."],
-            "search_query": address,
-            "image_url": None,
+            "warnings": ["Room prices and availability are not provided. Confirm with the property."],
+            "search_query": f"{name}, {address}",
+            "image_url": hotel_photo_reference(item["id"]) if item.get("id") else None,
             "priority_score": 5,
         }
 

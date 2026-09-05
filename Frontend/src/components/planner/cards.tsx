@@ -9,6 +9,8 @@ import { fallbackImage, money } from "@/lib/utils/format";
 import * as destinationApi from "@/lib/api/destination";
 import * as hotelApi from "@/lib/api/hotels";
 
+import { GoogleHotelImage } from "./GoogleHotelImage";
+
 const IMAGE_PROXY_VERSION = "3";
 
 export function SmartImage({ src, alt, kind, fallbackQuery, className = "h-48 w-full object-cover" }: { src?: string | null; alt: string; kind: "place" | "hotel"; fallbackQuery?: string; className?: string }) {
@@ -20,11 +22,16 @@ export function SmartImage({ src, alt, kind, fallbackQuery, className = "h-48 w-
     // imagery; show a neutral placeholder unless the hotel provider supplied
     // a property-linked image URL.
     if (failedSrc === sourceKey || (kind === "hotel" && !src)) return fallbackImage(alt, kind);
+    if (kind === "hotel" && src) return src;
     const representativeQuery = fallbackQuery?.trim() || (kind === "hotel" ? "Sri Lanka architecture" : "Sri Lanka landscape");
     const sharedParams = `label=${encodeURIComponent(alt)}&fallbackQuery=${encodeURIComponent(representativeQuery)}&v=${IMAGE_PROXY_VERSION}`;
     if (src) return `/api/image?url=${encodeURIComponent(src)}&${sharedParams}`;
     return `/api/image?query=${encodeURIComponent(alt)}&${sharedParams}`;
   }, [alt, failedSrc, fallbackQuery, kind, src]);
+
+  if (kind === "hotel" && src?.startsWith("/hotels/google-photo/")) {
+    return <GoogleHotelImage key={src} src={src} alt={alt} className={className} />;
+  }
 
   return (
     // eslint-disable-next-line @next/next/no-img-element
@@ -78,12 +85,12 @@ export function HotelSuggestionCard({ hotel, selected, onToggle }: { hotel: Hote
             <h3 className="font-black text-slate-950">{hotel.name}</h3>
             <p className="text-xs font-bold uppercase tracking-normal text-teal-700">{hotel.hotel_type} · {hotel.area || "Sri Lanka"}</p>
           </div>
-          <span className="rounded-full bg-[#fdf0e8] px-2.5 py-1 text-xs font-bold text-[#9a4d2e]"><Star className="mr-1 inline h-3 w-3 fill-[#e17742] text-[#e17742]" />{hotel.rating_estimate ?? hotel.priority_score ?? "Suggested"}</span>
+          <span className="rounded-full bg-[#fdf0e8] px-2.5 py-1 text-xs font-bold text-[#9a4d2e]"><Star className="mr-1 inline h-3 w-3 fill-[#e17742] text-[#e17742]" />{hotel.rating_estimate ?? "Unrated"}</span>
         </div>
         <p className="line-clamp-3 min-h-14 text-sm text-slate-600">{hotel.short_description || hotel.reason_for_recommendation || hotel.distance_summary || "Accommodation close to your selected places."}</p>
         <div className="grid gap-1 text-xs text-slate-500">
           <span><HotelIcon className="mr-1 inline h-3 w-3" />{hotel.nights ?? 1} nights · {hotel.rooms ?? 1} rooms</span>
-          <span>{money(hotel.estimated_price_per_night_lkr)} / night · {money(hotel.total_estimated_price_lkr)} total</span>
+          <span>{hotel.estimated_price_per_night_lkr ? `${money(hotel.estimated_price_per_night_lkr)} / night · ${money(hotel.total_estimated_price_lkr)} total` : "Contact property for price and availability"}</span>
           {hotel.distance_summary ? <span>{hotel.distance_summary}</span> : null}
           {hotel.amenities?.length ? <span>{hotel.amenities.slice(0, 4).join(", ")}</span> : null}
           {hotel.warnings?.length ? <span className="font-semibold text-amber-700">{hotel.warnings.join(", ")}</span> : null}
@@ -140,6 +147,7 @@ export function HotelSearchCombobox({ tripId, onAdd }: { tripId: string; onAdd: 
         {visibleItems.map((hotel, index) => (
           <button key={`${hotel.hotel_key || "hotel"}-${hotel.name}-${hotel.latitude ?? "x"}-${hotel.longitude ?? "y"}-${index}`} className="rounded-md border border-slate-200 p-3 text-left hover:bg-slate-50" type="button" onClick={() => onAdd(hotel)}>
             <b>{hotel.name}</b>
+            {hotel.hotel_key?.startsWith("google:") ? <span className="ml-2 text-xs">Google Maps</span> : null}
             <span className="block text-sm text-slate-500">{hotel.short_description || hotel.area || hotel.hotel_type}</span>
           </button>
         ))}

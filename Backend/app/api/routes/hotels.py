@@ -3,7 +3,7 @@ import re
 from datetime import datetime
 from uuid import UUID
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Response
 from sqlalchemy.orm import Session
 
 from app.agents.hotel_agent import HotelAgent
@@ -39,6 +39,23 @@ router = APIRouter(
 )
 
 geocoder_service = GeocoderService()
+
+
+@router.get("/google-photo/{place_id}/{signature}")
+def hotel_photo(place_id: str, signature: str, response: Response,
+                current_user: User = Depends(get_current_user)):
+    from app.services.hotel_photos import get_hotel_photo
+    from app.services.google_quota import GoogleQuotaExceeded
+
+    response.headers["Cache-Control"] = "private, no-store"
+    try:
+        return get_hotel_photo(place_id, signature)
+    except GoogleQuotaExceeded:
+        raise HTTPException(status_code=429, detail="Hotel photo allowance reached. Try again next month.")
+    except ValueError:
+        raise HTTPException(status_code=404, detail="Hotel photo unavailable.")
+    except Exception:
+        raise HTTPException(status_code=503, detail="Hotel photo temporarily unavailable.")
 
 
 def _saved_preference_prompt(preference: Preference) -> dict:
