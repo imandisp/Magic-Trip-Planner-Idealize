@@ -1,5 +1,14 @@
 # Production deployment
 
+## Automated releases with GitHub Actions
+
+The repository includes CI for pull requests and an ordered production release
+pipeline for `main`: tests and migration validation, backend image publication,
+Azure API and worker rollout with revision checks, then Vercel deployment and
+public health checks. See [docs/CI_CD.md](docs/CI_CD.md) for the required GitHub
+environment variables, Vercel token, Azure OIDC identity, and activation steps.
+The resource setup below is still required once before enabling automation.
+
 ## Recommended topology
 
 Deploy the Next.js application to Vercel and run the stateful services on Azure:

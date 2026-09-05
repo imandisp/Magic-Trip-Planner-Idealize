@@ -179,6 +179,10 @@ The recommended production topology is the Next.js frontend on Vercel plus the F
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for the exact architecture, Vercel project settings, Azure container settings, production environment variables, and public launch checklist.
 
+GitHub Actions validates pull requests and can release `main` to Azure and Vercel
+after all checks pass. See [CI/CD setup](docs/CI_CD.md) to configure deployment
+credentials, activate automatic releases, and understand failure/rollback behavior.
+
 ## Quick start with Docker
 
 Docker is the simplest way to run the complete application because it starts PostgreSQL, applies migrations, launches the API, runs the planning worker, and serves the frontend.
