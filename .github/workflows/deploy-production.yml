@@ -131,5 +131,5 @@ jobs:
         env:
           RELEASE_DIGEST: ${{ steps.image.outputs.digest }}
         run: |
-          printf 'Commit: `%s`\n\nBackend image: `%s/magictrip-backend@%s`\n' \
+          printf 'Commit: %s\n\nBackend image: %s/magictrip-backend@%s\n' \
             "$GITHUB_SHA" "$ACR_LOGIN_SERVER" "$RELEASE_DIGEST" >> "$GITHUB_STEP_SUMMARY"
