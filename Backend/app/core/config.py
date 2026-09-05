@@ -45,6 +45,7 @@ class Settings(BaseSettings):
     # Geocoding-derived map content remain opt-in while the UI uses an OSM map.
     GOOGLE_WEATHER_ENABLED: bool = False
     GOOGLE_PLACES_ENABLED: bool = False
+    GOOGLE_HOTELS_ENABLED: bool = True
     GOOGLE_ROUTES_ENABLED: bool = False
     GOOGLE_GEOCODING_ENABLED: bool = False
     GOOGLE_TRANSIT_FARES_ENABLED: bool = False
@@ -55,7 +56,8 @@ class Settings(BaseSettings):
     GOOGLE_WEATHER_MONTHLY_LIMIT: int = Field(default=3_000, ge=0, le=9_000)
     GOOGLE_PLACES_SEARCH_MONTHLY_LIMIT: int = Field(default=1_500, ge=0, le=4_000)
     GOOGLE_PLACES_DETAILS_MONTHLY_LIMIT: int = Field(default=400, ge=0, le=800)
-    GOOGLE_ROUTES_MONTHLY_LIMIT: int = Field(default=2_500, ge=0, le=8_000)
+    GOOGLE_PLACES_PHOTOS_MONTHLY_LIMIT: int = Field(default=500, ge=0, le=800)
+    GOOGLE_ROUTES_MONTHLY_LIMIT: int = Field(default=2_500, ge=0, le=4_000)
     GOOGLE_GEOCODING_MONTHLY_LIMIT: int = Field(default=3_000, ge=0, le=8_000)
     @property
     def frontend_origins(self) -> list[str]:

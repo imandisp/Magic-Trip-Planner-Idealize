@@ -78,7 +78,7 @@ function FitRouteBounds({ days, hotels }: { days: RouteDay[]; hotels: Hotel[] })
       return day.segments.flatMap((segment) => segment.path_coordinates || []);
     });
     const hotelCoordinates = hotels
-      .filter((hotel) => hotel.latitude != null && hotel.longitude != null)
+      .filter((hotel) => !hotel.hotel_key?.startsWith("google:") && hotel.latitude != null && hotel.longitude != null)
       .map((hotel) => ({ latitude: hotel.latitude!, longitude: hotel.longitude! }));
     const coordinates = [...routeCoordinates, ...hotelCoordinates].filter(
       (point) => Number.isFinite(point.latitude) && Number.isFinite(point.longitude),
@@ -187,7 +187,7 @@ export default function RouteMapClient({
 
       {/* Hotel markers */}
       {hotels
-        .filter((hotel) => hotel.latitude != null && hotel.longitude != null)
+        .filter((hotel) => !hotel.hotel_key?.startsWith("google:") && hotel.latitude != null && hotel.longitude != null)
         .map((hotel) => (
           <Marker
             key={hotel.hotel_key || hotel.name}

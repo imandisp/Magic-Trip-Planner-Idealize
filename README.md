@@ -348,6 +348,8 @@ Backend variables are loaded from `Backend/.env`.
 | --- | --- | --- |
 | `GOOGLE_API_KEY` | Empty | Shared server-only Google web-services key |
 | `GOOGLE_WEATHER_ENABLED` | `false` | Enable Google Weather |
+| `GOOGLE_HOTELS_ENABLED` | `true` | Use Places for hotel cards when the server key is configured |
+| `GOOGLE_PLACES_PHOTOS_MONTHLY_LIMIT` | `500` | Separate photo ceiling; photos load automatically as cards enter view |
 | `GOOGLE_PLACES_ENABLED` | `false` | Enable Google Places adapter |
 | `GOOGLE_ROUTES_ENABLED` | `false` | Enable Google Routes adapter |
 | `GOOGLE_GEOCODING_ENABLED` | `false` | Enable Google Geocoding adapter |
@@ -361,6 +363,14 @@ Backend variables are loaded from `Backend/.env`.
 All Google keys remain server-side. Never expose `GOOGLE_API_KEY` through a variable beginning with `NEXT_PUBLIC_`.
 
 `GOOGLE_AUTH_CLIENT_ID` is a public OAuth identifier, not the `GOOGLE_API_KEY` and not a secret. The frontend obtains it from `/auth/google/config` at runtime, while the backend uses the same value to verify the token audience. This app does not require a Google OAuth client secret.
+
+Hotel cards use Google Places independently via `GOOGLE_HOTELS_ENABLED`. Google hotel markers are excluded from the OpenStreetMap view; property photos and links display Google Maps attribution. Hotel names are provider results, not AI-generated names. Missing prices, ratings, and photos remain unavailable.
+
+Hotel search uses one Text Search Pro request per search (no pagination). The app reserves persistent PostgreSQL quota before requests and fails closed if counters are unavailable. Google HTTP requests have no automatic retries. Searches stop at 1,500/month; photo loads also consume the 400/month details allowance and reserve the separate 500/month photo allowance. Search/photo responses do not enter the persistent provider cache, and saved photo references contain a signed Place ID, not expiring photo names.
+
+Google currently lists 5,000 free Text Search Pro requests and 1,000 free photo requests per month. These are shared across the billing account, not per API key. Existing usage in other projects is not visible to this application. Keep all deployments on the same quota database, do not reset counters, and lower local allowances to account for outside usage. In Google Cloud Console > Google Maps Platform > Quotas, configure the available hard request quotas for Places; where daily quotas are available, 100 searches/day and 20 photos/day remain below the respective monthly free caps when used by a dedicated project. Budget alerts only notify; they do not stop billing. Verify account-wide usage before enabling production traffic. See [Google pricing](https://developers.google.com/maps/billing-and-pricing/pricing) and [quota controls](https://developers.google.com/maps/documentation/places/web-service/usage-and-billing).
+
+Restart the backend and frontend after updating, then search again to replace previously generated suggestions. No additional Google API needs enabling for hotel names or photos.
 
 The current frontend displays OpenStreetMap tiles. Keep Google Places, Routes, and Geocoding disabled unless their use and map-display requirements have been reviewed. Google Weather and transit fare lookup can be enabled independently.
 
