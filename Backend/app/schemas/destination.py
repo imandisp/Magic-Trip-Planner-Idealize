@@ -30,6 +30,7 @@ class DestinationSuggestRequest(BaseModel):
 class SuggestedPlace(BaseModel):
 
     place_key: str = Field(..., examples=["little_adams_peak"])
+    google_place_id: str | None = None
 
     name: str = Field(..., examples=["Little Adam's Peak"])
 
@@ -103,6 +104,7 @@ class DestinationAgentResponse(BaseModel):
 
 class PlaceSearchSuggestion(BaseModel):
     place_key: str
+    google_place_id: str | None = None
     name: str
     display_name: str
     category: str

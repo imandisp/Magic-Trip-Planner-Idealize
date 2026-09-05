@@ -118,9 +118,6 @@ export function PlaceSearchCombobox({ tripId, onAdd }: { tripId: string; onAdd: 
   }, [query, tripId]);
   const searching = query.trim().length >= 2 && result.query !== query;
   const visibleItems = query.trim().length >= 2 && result.query === query ? uniqueBy(result.items.filter(hasMapCoordinates), (place) => place.place_key || `${place.name}|${place.latitude}|${place.longitude}`) : [];
-  return () => window.clearTimeout(timer);
-  }, [query, tripId]);
-  const visibleItems = query.trim().length >= 2 ? uniqueBy(items.filter(hasMapCoordinates), (place) => `${place.place_key || ""}|${place.name}|${place.latitude ?? ""}|${place.longitude ?? ""}`) : [];
   return (
     <div className="rounded-2xl border border-[#17453a]/10 bg-[#f9faf7] p-4">
       <label className="relative block">

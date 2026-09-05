@@ -42,6 +42,7 @@ export type Trip = {
 
 export type Place = {
   place_key: string;
+  google_place_id?: string | null;
   name: string;
   source?: string;
   category: string;

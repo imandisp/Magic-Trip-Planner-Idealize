@@ -201,6 +201,7 @@ def select_places_for_trip(
         selected_place = SelectedPlace(
             trip_id=trip.id,
             place_key=place.place_key,
+            google_place_id=place.google_place_id,
             name=place.name,
             category=place.category,
             source=place.source,

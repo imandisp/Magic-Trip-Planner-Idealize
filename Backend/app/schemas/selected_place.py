@@ -6,6 +6,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 class SelectedPlaceInput(BaseModel):
     place_key: str
+    google_place_id: str | None = None
     name: str
     category: str
     source: str
@@ -42,6 +43,7 @@ class SelectedPlaceResponse(BaseModel):
     trip_id: UUID
 
     place_key: str
+    google_place_id: str | None = None
     name: str
     category: str
     source: str
