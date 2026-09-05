@@ -170,6 +170,54 @@ def test_failed_route_retry_reuses_saved_places_without_new_ai_call(monkeypatch)
     assert job.progress == 97
 
 
+def test_new_automatic_plan_reuses_user_selected_search_places(monkeypatch):
+    user = SimpleNamespace(id=uuid4())
+    trip = SimpleNamespace(id=uuid4(), user_id=user.id)
+    selected_places = [
+        SimpleNamespace(place_key="little_adams_peak", google_place_id="google-place-123")
+    ]
+    db = FakeDB(user, trip, selected_places)
+    job = SimpleNamespace(
+        id=uuid4(), user_id=user.id, trip_id=trip.id,
+        payload={"use_selected_places": True}, cancel_requested=False,
+        progress=0, current_stage="Queued", updated_at=None,
+    )
+    calls = []
+
+    monkeypatch.setattr(
+        planning_worker,
+        "suggest_places_for_trip",
+        lambda *_args: pytest.fail("saved searched places must not be replaced"),
+    )
+    monkeypatch.setattr(
+        planning_worker,
+        "select_places_for_trip",
+        lambda *_args: pytest.fail("saved searched places are already persisted"),
+    )
+    monkeypatch.setattr(
+        planning_worker,
+        "generate_route_for_trip",
+        lambda *_args: calls.append("route") or SimpleNamespace(days=[1]),
+    )
+    monkeypatch.setattr(
+        planning_worker, "confirm_latest_route_for_trip", lambda *_args: calls.append("confirm")
+    )
+    monkeypatch.setattr(
+        planning_worker, "calculate_budget_for_trip",
+        lambda *_args: SimpleNamespace(budget_status="within_budget"),
+    )
+    monkeypatch.setattr(
+        planning_worker, "capture_trip_version",
+        lambda *_args: SimpleNamespace(id=uuid4()),
+    )
+
+    result = planning_worker._run_full_plan(db, job)
+
+    assert calls == ["route", "confirm"]
+    assert result["selected_places"] == 1
+    assert result["resumed_from_saved_places"] is True
+
+
 def test_worker_retries_when_database_is_temporarily_unavailable(monkeypatch, caplog):
     def unavailable_session():
         raise OperationalError("connect", {}, OSError("temporary DNS failure"))

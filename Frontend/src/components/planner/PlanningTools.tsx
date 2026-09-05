@@ -55,6 +55,7 @@ export function AutoPlanner({ tripId, onComplete, onError }: { tripId: string; o
         tripId,
         {
           use_saved_preferences: true,
+          use_selected_places: true,
           interests: interests.split(",").map((value) => value.trim()).filter(Boolean),
           trip_style: tripStyle,
           special_notes: notes,

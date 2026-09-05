@@ -37,6 +37,11 @@ class SelectedPlace(Base):
         nullable=False
     )
 
+    google_place_id = Column(
+        String(255),
+        nullable=True,
+    )
+
     name = Column(
         String,
         nullable=False
