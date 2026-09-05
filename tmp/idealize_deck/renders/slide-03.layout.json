@@ -1,0 +1,923 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ure645",
+    "id": "ure645",
+    "slide": 3,
+    "layoutId": "ccd0dd7d-c61c-4921-ac46-9ad0964044a6",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4eb3ef3c-bc09-4993-855a-199ae7de2ce3",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ccd0dd7d-c61c-4921-ac46-9ad0964044a6",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4eb3ef3c-bc09-4993-855a-199ae7de2ce3",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4eb3ef3c-bc09-4993-855a-199ae7de2ce3",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fq54bylc",
+      "id": "1",
+      "name": "section-3",
+      "bbox": [
+        48,
+        30,
+        430,
+        28
+      ],
+      "geometry": "rect",
+      "text": "SOLUTION",
+      "textPreview": "SOLUTION",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Arial",
+        "color": "#D96B32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SOLUTION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SOLUTION",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Arial",
+            "color": "#D96B32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SOLUTION",
+              "fontSize": 15,
+              "typeface": "Arial",
+              "color": "#D96B32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rylk3mx",
+      "id": "2",
+      "name": "title-3",
+      "bbox": [
+        48,
+        68,
+        1178,
+        80
+      ],
+      "geometry": "rect",
+      "text": "One trip record connects every decision from idea to itinerary.",
+      "textPreview": "One trip record connects every decision from idea to itinerary.",
+      "resolvedFontSize": 39.19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 40,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.98,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "One trip record connects every decision from idea to"
+          },
+          {
+            "index": 2,
+            "text": "itinerary."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "One trip record connects every decision from idea to itinerary.",
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "One trip record connects every decision from idea to itinerary.",
+              "fontSize": 40,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1c7md83i",
+      "id": "3",
+      "name": "rule-152",
+      "bbox": [
+        48,
+        152,
+        1184,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#C8D2CD",
+      "lineColor": "#C8D2CD",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qlw3et4v",
+      "id": "4",
+      "name": "slide-number-3",
+      "bbox": [
+        1182,
+        674,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 8.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Arial",
+        "color": "#61766F",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.67,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Arial",
+            "color": "#61766F",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 13,
+              "typeface": "Arial",
+              "color": "#61766F",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rm5k7yl0",
+      "id": "5",
+      "name": "text-48-190",
+      "bbox": [
+        48,
+        190,
+        260,
+        24
+      ],
+      "geometry": "rect",
+      "text": "MAGIC TRIP PLANNER",
+      "textPreview": "MAGIC TRIP PLANNER",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Arial",
+        "color": "#D96B32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.86,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MAGIC TRIP PLANNER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MAGIC TRIP PLANNER",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Arial",
+            "color": "#D96B32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MAGIC TRIP PLANNER",
+              "fontSize": 14,
+              "typeface": "Arial",
+              "color": "#D96B32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/snelg3ml",
+      "id": "6",
+      "name": "text-48-228",
+      "bbox": [
+        48,
+        228,
+        470,
+        126
+      ],
+      "geometry": "rect",
+      "text": "A guided workspace turns traveler inputs into a map-verified, editable plan that can be saved, shared, restored, and exported.",
+      "textPreview": "A guided workspace turns traveler inputs into a map-verified, editable plan that can be saved, shared, restored, and exported.",
+      "resolvedFontSize": 24.25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.97,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A guided workspace turns traveler"
+          },
+          {
+            "index": 2,
+            "text": "inputs into a map-verified, editable"
+          },
+          {
+            "index": 3,
+            "text": "plan that can be saved, shared,"
+          },
+          {
+            "index": 4,
+            "text": "restored, and exported."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A guided workspace turns traveler inputs into a map-verified, editable plan that can be saved, shared, restored, and exported.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A guided workspace turns traveler inputs into a map-verified, editable plan that can be saved, shared, restored, and exported.",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/don29836",
+      "id": "7",
+      "name": "rect-50-386",
+      "bbox": [
+        50,
+        386,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#D96B32",
+      "lineColor": "#D96B32",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ihc3a94j",
+      "id": "8",
+      "name": "text-78-382",
+      "bbox": [
+        78,
+        382,
+        432,
+        30
+      ],
+      "geometry": "rect",
+      "text": "AI-matched Sri Lanka destinations",
+      "textPreview": "AI-matched Sri Lanka destinations",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI-matched Sri Lanka destinations"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI-matched Sri Lanka destinations",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI-matched Sri Lanka destinations",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ilk3el4",
+      "id": "9",
+      "name": "rect-50-432",
+      "bbox": [
+        50,
+        432,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#D96B32",
+      "lineColor": "#D96B32",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6l4fmd8",
+      "id": "10",
+      "name": "text-78-428",
+      "bbox": [
+        78,
+        428,
+        432,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Day-by-day road routes and timing",
+      "textPreview": "Day-by-day road routes and timing",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Day-by-day road routes and timing"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Day-by-day road routes and timing",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Day-by-day road routes and timing",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5c36hwn",
+      "id": "11",
+      "name": "rect-50-478",
+      "bbox": [
+        50,
+        478,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#D96B32",
+      "lineColor": "#D96B32",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8nmhwve",
+      "id": "12",
+      "name": "text-78-474",
+      "bbox": [
+        78,
+        474,
+        432,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Daily stays near route endpoints",
+      "textPreview": "Daily stays near route endpoints",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Daily stays near route endpoints"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Daily stays near route endpoints",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Daily stays near route endpoints",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k7ul8ret",
+      "id": "13",
+      "name": "rect-50-524",
+      "bbox": [
+        50,
+        524,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#D96B32",
+      "lineColor": "#D96B32",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7a54j6d4",
+      "id": "14",
+      "name": "text-78-520",
+      "bbox": [
+        78,
+        520,
+        432,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Practical LKR budget estimates",
+      "textPreview": "Practical LKR budget estimates",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Practical LKR budget estimates"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Practical LKR budget estimates",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Practical LKR budget estimates",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/69w3a1wj",
+      "id": "15",
+      "name": "rect-50-570",
+      "bbox": [
+        50,
+        570,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#D96B32",
+      "lineColor": "#D96B32",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcnmlwva",
+      "id": "16",
+      "name": "text-78-566",
+      "bbox": [
+        78,
+        566,
+        432,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Share, print, calendar, and offline outputs",
+      "textPreview": "Share, print, calendar, and offline outputs",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Share, print, calendar, and offline outputs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Share, print, calendar, and offline outputs",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Share, print, calendar, and offline outputs",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8belcbep",
+      "id": "17",
+      "name": "rect-560-190",
+      "bbox": [
+        560,
+        190,
+        670,
+        444
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EEF2EF",
+      "lineColor": "#C8D2CD",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/s369sfqt",
+      "id": "18",
+      "bbox": [
+        576,
+        206,
+        638,
+        412
+      ],
+      "geometry": "roundRect",
+      "alt": "Implemented Magic Trip Planner homepage showing a six-day Colombo to Ella itinerary preview",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 3398"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "ec5fa529-32d5-4070-b3da-6fe396409fed",
+        "contentType": "image/jpeg",
+        "byteLength": 78150
+      }
+    }
+  ],
+  "composeRuns": []
+}

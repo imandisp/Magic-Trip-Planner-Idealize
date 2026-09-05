@@ -1,0 +1,1370 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/po2bib",
+    "id": "po2bib",
+    "slide": 8,
+    "layoutId": "ccd0dd7d-c61c-4921-ac46-9ad0964044a6",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4eb3ef3c-bc09-4993-855a-199ae7de2ce3",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFDF8",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ccd0dd7d-c61c-4921-ac46-9ad0964044a6",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4eb3ef3c-bc09-4993-855a-199ae7de2ce3",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4eb3ef3c-bc09-4993-855a-199ae7de2ce3",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nux0n6d",
+      "id": "1",
+      "name": "section-8",
+      "bbox": [
+        48,
+        30,
+        430,
+        28
+      ],
+      "geometry": "rect",
+      "text": "GO TO MARKET",
+      "textPreview": "GO TO MARKET",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Arial",
+        "color": "#D96B32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GO TO MARKET"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GO TO MARKET",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Arial",
+            "color": "#D96B32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GO TO MARKET",
+              "fontSize": 15,
+              "typeface": "Arial",
+              "color": "#D96B32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3mlg7ips",
+      "id": "2",
+      "name": "title-8",
+      "bbox": [
+        48,
+        68,
+        1178,
+        80
+      ],
+      "geometry": "rect",
+      "text": "Start focused, then expand with the travel ecosystem.",
+      "textPreview": "Start focused, then expand with the travel ecosystem.",
+      "resolvedFontSize": 40,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 40,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Start focused, then expand with the travel ecosystem."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Start focused, then expand with the travel ecosystem.",
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Start focused, then expand with the travel ecosystem.",
+              "fontSize": 40,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lcfydo7",
+      "id": "3",
+      "name": "rule-152",
+      "bbox": [
+        48,
+        152,
+        1184,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#C8D2CD",
+      "lineColor": "#C8D2CD",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3y5s7m",
+      "id": "4",
+      "name": "slide-number-8",
+      "bbox": [
+        1182,
+        674,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "08",
+      "textPreview": "08",
+      "resolvedFontSize": 8.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Arial",
+        "color": "#61766F",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.67,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "08"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "08",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Arial",
+            "color": "#61766F",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "08",
+              "fontSize": 13,
+              "typeface": "Arial",
+              "color": "#61766F",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gzuxwn6h",
+      "id": "5",
+      "name": "text-48-182",
+      "bbox": [
+        48,
+        182,
+        1100,
+        48
+      ],
+      "geometry": "rect",
+      "text": "The first objective is repeatable planning adoption; monetization follows once traveler intent and partner value are validated.",
+      "textPreview": "The first objective is repeatable planning adoption; monetization follows once traveler intent and partner value are validated.",
+      "resolvedFontSize": 19.78,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Arial",
+        "color": "#61766F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The first objective is repeatable planning adoption; monetization follows once traveler intent and partner value are"
+          },
+          {
+            "index": 2,
+            "text": "validated."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The first objective is repeatable planning adoption; monetization follows once traveler intent and partner value are validated.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#61766F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The first objective is repeatable planning adoption; monetization follows once traveler intent and partner value are validated.",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#61766F",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fy1g3ipw",
+      "id": "6",
+      "name": "text-48-270",
+      "bbox": [
+        48,
+        270,
+        70,
+        50
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 33.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Arial",
+        "color": "#D96B32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Arial",
+            "color": "#D96B32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 36,
+              "typeface": "Arial",
+              "color": "#D96B32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxsfudob",
+      "id": "7",
+      "name": "text-48-332",
+      "bbox": [
+        48,
+        332,
+        350,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Independent visitors",
+      "textPreview": "Independent visitors",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Independent visitors"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Independent visitors",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Independent visitors",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twjy187q",
+      "id": "8",
+      "name": "text-48-392",
+      "bbox": [
+        48,
+        392,
+        350,
+        94
+      ],
+      "geometry": "rect",
+      "text": "International travelers who want a Sri Lanka-specific route, stays, and costs before arrival.",
+      "textPreview": "International travelers who want a Sri Lanka-specific route, stays, and costs before arrival.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#61766F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "International travelers who want a Sri"
+          },
+          {
+            "index": 2,
+            "text": "Lanka-specific route, stays, and costs"
+          },
+          {
+            "index": 3,
+            "text": "before arrival."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "International travelers who want a Sri Lanka-specific route, stays, and costs before arrival.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#61766F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "International travelers who want a Sri Lanka-specific route, stays, and costs before arrival.",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#61766F",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svaxs365",
+      "id": "9",
+      "name": "rule-506",
+      "bbox": [
+        48,
+        506,
+        350,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#C8D2CD",
+      "lineColor": "#C8D2CD",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ypsbypsf",
+      "id": "10",
+      "name": "text-48-528",
+      "bbox": [
+        48,
+        528,
+        350,
+        76
+      ],
+      "geometry": "rect",
+      "text": "Reach: SEO, creator itineraries, university and travel communities",
+      "textPreview": "Reach: SEO, creator itineraries, university and travel communities",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reach: SEO, creator itineraries, university"
+          },
+          {
+            "index": 2,
+            "text": "and travel communities"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reach: SEO, creator itineraries, university and travel communities",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reach: SEO, creator itineraries, university and travel communities",
+              "fontSize": 16,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jq1cru90",
+      "id": "11",
+      "name": "text-448-270",
+      "bbox": [
+        448,
+        270,
+        70,
+        50
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 33.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Arial",
+        "color": "#D96B32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Arial",
+            "color": "#D96B32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 36,
+              "typeface": "Arial",
+              "color": "#D96B32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/krat0zal",
+      "id": "12",
+      "name": "text-448-332",
+      "bbox": [
+        448,
+        332,
+        350,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Groups and diaspora",
+      "textPreview": "Groups and diaspora",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Groups and diaspora"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Groups and diaspora",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Groups and diaspora",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lcjut4r6",
+      "id": "13",
+      "name": "text-448-392",
+      "bbox": [
+        448,
+        392,
+        350,
+        94
+      ],
+      "geometry": "rect",
+      "text": "Friends, families, and returning Sri Lankans coordinating shared decisions and realistic budgets.",
+      "textPreview": "Friends, families, and returning Sri Lankans coordinating shared decisions and realistic budgets.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#61766F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Friends, families, and returning Sri"
+          },
+          {
+            "index": 2,
+            "text": "Lankans coordinating shared decisions"
+          },
+          {
+            "index": 3,
+            "text": "and realistic budgets."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Friends, families, and returning Sri Lankans coordinating shared decisions and realistic budgets.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#61766F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Friends, families, and returning Sri Lankans coordinating shared decisions and realistic budgets.",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#61766F",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al8bupsj",
+      "id": "14",
+      "name": "rule-506",
+      "bbox": [
+        448,
+        506,
+        350,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#C8D2CD",
+      "lineColor": "#C8D2CD",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bmhsnu94",
+      "id": "15",
+      "name": "text-448-528",
+      "bbox": [
+        448,
+        528,
+        350,
+        76
+      ],
+      "geometry": "rect",
+      "text": "Reach: referrals, collaborative planning, community partnerships",
+      "textPreview": "Reach: referrals, collaborative planning, community partnerships",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reach: referrals, collaborative planning,"
+          },
+          {
+            "index": 2,
+            "text": "community partnerships"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reach: referrals, collaborative planning, community partnerships",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reach: referrals, collaborative planning, community partnerships",
+              "fontSize": 16,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wnatwza9",
+      "id": "16",
+      "name": "text-848-270",
+      "bbox": [
+        848,
+        270,
+        70,
+        50
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 33.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Arial",
+        "color": "#D96B32",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Arial",
+            "color": "#D96B32",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 36,
+              "typeface": "Arial",
+              "color": "#D96B32",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xojap4ru",
+      "id": "17",
+      "name": "text-848-332",
+      "bbox": [
+        848,
+        332,
+        350,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Travel partners",
+      "textPreview": "Travel partners",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Travel partners"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Travel partners",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Travel partners",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mh8bq5s7",
+      "id": "18",
+      "name": "text-848-392",
+      "bbox": [
+        848,
+        392,
+        350,
+        94
+      ],
+      "geometry": "rect",
+      "text": "Hotels, guides, and operators who benefit from higher-intent, better-prepared travelers.",
+      "textPreview": "Hotels, guides, and operators who benefit from higher-intent, better-prepared travelers.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#61766F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Hotels, guides, and operators who"
+          },
+          {
+            "index": 2,
+            "text": "benefit from higher-intent,"
+          },
+          {
+            "index": 3,
+            "text": "better-prepared travelers."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Hotels, guides, and operators who benefit from higher-intent, better-prepared travelers.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#61766F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Hotels, guides, and operators who benefit from higher-intent, better-prepared travelers.",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#61766F",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nihsjats",
+      "id": "19",
+      "name": "rule-506",
+      "bbox": [
+        848,
+        506,
+        350,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#C8D2CD",
+      "lineColor": "#C8D2CD",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmd8r6pk",
+      "id": "20",
+      "name": "text-848-528",
+      "bbox": [
+        848,
+        528,
+        350,
+        76
+      ],
+      "geometry": "rect",
+      "text": "Reach: pilot integrations and curated local inventory",
+      "textPreview": "Reach: pilot integrations and curated local inventory",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Arial",
+        "color": "#143A31",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reach: pilot integrations and curated local"
+          },
+          {
+            "index": 2,
+            "text": "inventory"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reach: pilot integrations and curated local inventory",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Arial",
+            "color": "#143A31",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reach: pilot integrations and curated local inventory",
+              "fontSize": 16,
+              "typeface": "Arial",
+              "color": "#143A31",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q147y18z",
+      "id": "21",
+      "name": "rect-48-628",
+      "bbox": [
+        48,
+        628,
+        1184,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#0D4A3B",
+      "lineColor": "#0D4A3B",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dofqtg7q",
+      "id": "22",
+      "name": "text-72-641",
+      "bbox": [
+        72,
+        641,
+        1136,
+        24
+      ],
+      "geometry": "rect",
+      "text": "COMMERCIAL MODEL TO VALIDATE: freemium planning + affiliate referrals + B2B white-label/API",
+      "textPreview": "COMMERCIAL MODEL TO VALIDATE: freemium planning + affiliate referrals + B2B white-label/API",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Arial",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.71,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "COMMERCIAL MODEL TO VALIDATE: freemium planning + affiliate referrals + B2B white-label/API"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "COMMERCIAL MODEL TO VALIDATE: freemium planning + affiliate referrals + B2B white-label/API",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Arial",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "COMMERCIAL MODEL TO VALIDATE: freemium planning + affiliate referrals + B2B white-label/API",
+              "fontSize": 17,
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

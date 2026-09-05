@@ -364,7 +364,7 @@ All Google keys remain server-side. Never expose `GOOGLE_API_KEY` through a vari
 
 `GOOGLE_AUTH_CLIENT_ID` is a public OAuth identifier, not the `GOOGLE_API_KEY` and not a secret. The frontend obtains it from `/auth/google/config` at runtime, while the backend uses the same value to verify the token audience. This app does not require a Google OAuth client secret.
 
-Hotel cards use Google Places independently via `GOOGLE_HOTELS_ENABLED`. Google hotel markers are excluded from the OpenStreetMap view; property photos and links display Google Maps attribution. Hotel names are provider results, not AI-generated names. Missing prices, ratings, and photos remain unavailable.
+Hotel cards use Google Places independently via `GOOGLE_HOTELS_ENABLED`. Selected hotels appear on the route map with hover names; property photos and links display Google Maps attribution. Hotel names are provider results, not AI-generated names. Missing prices, ratings, and photos remain unavailable.
 
 Hotel search uses one Text Search Pro request per search (no pagination). The app reserves persistent PostgreSQL quota before requests and fails closed if counters are unavailable. Google HTTP requests have no automatic retries. Searches stop at 1,500/month; photo loads also consume the 400/month details allowance and reserve the separate 500/month photo allowance. Search/photo responses do not enter the persistent provider cache, and saved photo references contain a signed Place ID, not expiring photo names.
 

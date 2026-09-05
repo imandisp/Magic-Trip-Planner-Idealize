@@ -1,0 +1,264 @@
+{"kind":"deck","id":"pr/2dcf4y","name":"Deck"}
+{"kind":"layout","layoutId":"4eb3ef3c-bc09-4993-855a-199ae7de2ce3","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"ccd0dd7d-c61c-4921-ac46-9ad0964044a6","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/act58v","slide":1,"title":"IDEALIZE 2026  /  SEMI-FINALS","textShapes":5}
+{"kind":"shape","id":"sh/p4z21cra","slide":1,"name":"cover-image-backing","bbox":[650,0,630,720]}
+{"kind":"shape","id":"sh/32hkzm9k","slide":1,"name":"rect-624-0","bbox":[624,0,26,720]}
+{"kind":"textbox","id":"sh/c7qlwrq1","slide":1,"name":"cover-kicker","text":"IDEALIZE 2026  /  SEMI-FINALS","textPreview":"IDEALIZE 2026  /  SEMI-FINALS","textChars":29,"textLines":1,"bbox":[54,50,510,34]}
+{"kind":"textbox","id":"sh/dszm5w7m","slide":1,"name":"cover-title","text":"Magic Trip\nPlanner","textPreview":"Magic Trip | Planner","textChars":18,"textLines":2,"bbox":[54,142,520,180]}
+{"kind":"textbox","id":"sh/q583uh8v","slide":1,"name":"cover-tagline","text":"Less planning.\nMore going.","textPreview":"Less planning. | More going.","textChars":26,"textLines":2,"bbox":[54,366,500,106]}
+{"kind":"textbox","id":"sh/r6hk3m9g","slide":1,"name":"cover-summary","text":"AI-assisted Sri Lanka itineraries that connect places, routes, stays, and costs in one restorable plan.","textPreview":"AI-assisted Sri Lanka itineraries that connect places, routes, stays, and costs in one restorable plan.","textChars":103,"textLines":1,"bbox":[54,520,520,86]}
+{"kind":"textbox","id":"sh/0val0rqx","slide":1,"name":"text-54-656","text":"WEB APPLICATION PITCH DECK","textPreview":"WEB APPLICATION PITCH DECK","textChars":26,"textLines":1,"bbox":[54,656,390,22]}
+{"kind":"image","id":"im/fy9k7i54","slide":1,"name":"","alt":"Implemented Magic Trip Planner sign-in experience","bbox":[650,0,630,720]}
+{"kind":"notes","id":"nt/act58v","slide":1,"text":"Open with the promise: the product reduces planning effort while increasing confidence that the itinerary works in the real world.\n\n[Sources]\n- D:/IDEALIZE 2026 - SEMI FINALS - SUBMISSION GUIDELINES.pdf - pitch deck requirement\n- Local product capture from http://localhost:3000/login on 2026-09-01\n- D:/GitHub/Magic-Trip-Planner-Idealize/README.md - product description\n[/Sources]"}
+{"kind":"slide","id":"sl/wk4whm","slide":2,"title":"PROBLEM","textShapes":15}
+{"kind":"textbox","id":"sh/6hobet0r","slide":2,"name":"section-2","text":"PROBLEM","textPreview":"PROBLEM","textChars":7,"textLines":1,"bbox":[48,30,430,28]}
+{"kind":"textbox","id":"sh/tkfapoji","slide":2,"name":"title-2","text":"Planning a trip still means stitching disconnected decisions together.","textPreview":"Planning a trip still means stitching disconnected decisions together.","textChars":70,"textLines":1,"bbox":[48,68,1178,80]}
+{"kind":"shape","id":"sh/sj6tg3ix","slide":2,"name":"rule-152","bbox":[48,152,1184,1]}
+{"kind":"textbox","id":"sh/fmhsry18","slide":2,"name":"slide-number-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1182,674,50,20]}
+{"kind":"textbox","id":"sh/ulobit03","slide":2,"name":"text-48-184","text":"Travelers discover places, check routes, compare stays, and estimate costs in separate tools. Each decision can invalidate the next.","textPreview":"Travelers discover places, check routes, compare stays, and estimate costs in separate tools. Each decision can invalidate the next.","textChars":132,"textLines":1,"bbox":[48,184,590,122]}
+{"kind":"shape","id":"sh/hozat8je","slide":2,"name":"rect-48-332","bbox":[48,332,590,244]}
+{"kind":"textbox","id":"sh/gnqtk3it","slide":2,"name":"text-78-364","text":"THE CONSEQUENCE","textPreview":"THE CONSEQUENCE","textChars":15,"textLines":1,"bbox":[78,364,240,24]}
+{"kind":"textbox","id":"sh/vqdsfe14","slide":2,"name":"text-78-412","text":"A plan that looks exciting can still fail on timing, distance, accommodation, or budget.","textPreview":"A plan that looks exciting can still fail on timing, distance, accommodation, or budget.","textChars":88,"textLines":1,"bbox":[78,412,506,120]}
+{"kind":"textbox","id":"sh/ap4r69kj","slide":2,"name":"text-708-194","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[708,194,64,52]}
+{"kind":"textbox","id":"sh/0rihkbyh","slide":2,"name":"text-798-194","text":"Discovery overload","textPreview":"Discovery overload","textChars":18,"textLines":1,"bbox":[798,194,390,34]}
+{"kind":"textbox","id":"sh/1sritgz2","slide":2,"name":"text-798-236","text":"Attractions and stays are compared without a single trip context.","textPreview":"Attractions and stays are compared without a single trip context.","textChars":65,"textLines":1,"bbox":[798,236,390,62]}
+{"kind":"shape","id":"sh/ep0zi1gb","slide":2,"name":"rule-312","bbox":[708,312,480,1]}
+{"kind":"textbox","id":"sh/fq90r6hw","slide":2,"name":"text-708-332","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[708,332,64,52]}
+{"kind":"textbox","id":"sh/ov2hobyd","slide":2,"name":"text-798-332","text":"Route reality","textPreview":"Route reality","textChars":13,"textLines":1,"bbox":[798,332,390,34]}
+{"kind":"textbox","id":"sh/pwbixgfy","slide":2,"name":"text-798-374","text":"Travel time, stop order, and daily hotel endpoints are easy to underestimate.","textPreview":"Travel time, stop order, and daily hotel endpoints are easy to underestimate.","textChars":77,"textLines":1,"bbox":[798,374,390,62]}
+{"kind":"shape","id":"sh/2t0zmlgn","slide":2,"name":"rule-450","bbox":[708,450,480,1]}
+{"kind":"textbox","id":"sh/nu90vqhs","slide":2,"name":"text-708-470","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[708,470,64,52]}
+{"kind":"textbox","id":"sh/4zyhcry9","slide":2,"name":"text-798-470","text":"Budget uncertainty","textPreview":"Budget uncertainty","textChars":18,"textLines":1,"bbox":[798,470,390,34]}
+{"kind":"textbox","id":"sh/507ylwzu","slide":2,"name":"text-798-512","text":"Costs are rarely combined into one Sri Lanka-ready LKR estimate.","textPreview":"Costs are rarely combined into one Sri Lanka-ready LKR estimate.","textChars":64,"textLines":1,"bbox":[798,512,390,62]}
+{"kind":"notes","id":"nt/wk4whm","slide":2,"text":"Describe the problem as a chain reaction: a destination choice affects the route, the route affects the stay, and both affect the budget.\n\n[Sources]\n- D:/GitHub/Magic-Trip-Planner-Idealize/README.md - product problem and workflow framing\n- D:/GitHub/Magic-Trip-Planner-Idealize/Frontend/src/app/page.tsx - user-facing value proposition\n[/Sources]"}
+{"kind":"slide","id":"sl/ure645","slide":3,"title":"SOLUTION","textShapes":10}
+{"kind":"textbox","id":"sh/fq54bylc","slide":3,"name":"section-3","text":"SOLUTION","textPreview":"SOLUTION","textChars":8,"textLines":1,"bbox":[48,30,430,28]}
+{"kind":"textbox","id":"sh/0rylk3mx","slide":3,"name":"title-3","text":"One trip record connects every decision from idea to itinerary.","textPreview":"One trip record connects every decision from idea to itinerary.","textChars":63,"textLines":1,"bbox":[48,68,1178,80]}
+{"kind":"shape","id":"sh/1c7md83i","slide":3,"name":"rule-152","bbox":[48,152,1184,1]}
+{"kind":"textbox","id":"sh/qlw3et4v","slide":3,"name":"slide-number-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1182,674,50,20]}
+{"kind":"textbox","id":"sh/rm5k7yl0","slide":3,"name":"text-48-190","text":"MAGIC TRIP PLANNER","textPreview":"MAGIC TRIP PLANNER","textChars":18,"textLines":1,"bbox":[48,190,260,24]}
+{"kind":"textbox","id":"sh/snelg3ml","slide":3,"name":"text-48-228","text":"A guided workspace turns traveler inputs into a map-verified, editable plan that can be saved, shared, restored, and exported.","textPreview":"A guided workspace turns traveler inputs into a map-verified, editable plan that can be saved, shared, restored, and exported.","textChars":126,"textLines":1,"bbox":[48,228,470,126]}
+{"kind":"shape","id":"sh/don29836","slide":3,"name":"rect-50-386","bbox":[50,386,12,12]}
+{"kind":"textbox","id":"sh/ihc3a94j","slide":3,"name":"text-78-382","text":"AI-matched Sri Lanka destinations","textPreview":"AI-matched Sri Lanka destinations","textChars":33,"textLines":1,"bbox":[78,382,432,30]}
+{"kind":"shape","id":"sh/3ilk3el4","slide":3,"name":"rect-50-432","bbox":[50,432,12,12]}
+{"kind":"textbox","id":"sh/j6l4fmd8","slide":3,"name":"text-78-428","text":"Day-by-day road routes and timing","textPreview":"Day-by-day road routes and timing","textChars":33,"textLines":1,"bbox":[78,428,432,30]}
+{"kind":"shape","id":"sh/y5c36hwn","slide":3,"name":"rect-50-478","bbox":[50,478,12,12]}
+{"kind":"textbox","id":"sh/l8nmhwve","slide":3,"name":"text-78-474","text":"Daily stays near route endpoints","textPreview":"Daily stays near route endpoints","textChars":32,"textLines":1,"bbox":[78,474,432,30]}
+{"kind":"shape","id":"sh/k7ul8ret","slide":3,"name":"rect-50-524","bbox":[50,524,12,12]}
+{"kind":"textbox","id":"sh/7a54j6d4","slide":3,"name":"text-78-520","text":"Practical LKR budget estimates","textPreview":"Practical LKR budget estimates","textChars":30,"textLines":1,"bbox":[78,520,432,30]}
+{"kind":"shape","id":"sh/69w3a1wj","slide":3,"name":"rect-50-570","bbox":[50,570,12,12]}
+{"kind":"textbox","id":"sh/tcnmlwva","slide":3,"name":"text-78-566","text":"Share, print, calendar, and offline outputs","textPreview":"Share, print, calendar, and offline outputs","textChars":43,"textLines":1,"bbox":[78,566,432,30]}
+{"kind":"shape","id":"sh/8belcbep","slide":3,"name":"rect-560-190","bbox":[560,190,670,444]}
+{"kind":"image","id":"im/s369sfqt","slide":3,"name":"","geometry":"roundRect","alt":"Implemented Magic Trip Planner homepage showing a six-day Colombo to Ella itinerary preview","bbox":[576,206,638,412]}
+{"kind":"notes","id":"nt/ure645","slide":3,"text":"Move from the promise to the evidence: this is the implemented product interface, not a conceptual mock-up.\n\n[Sources]\n- Local product capture from http://localhost:3000 on 2026-09-01\n- D:/GitHub/Magic-Trip-Planner-Idealize/README.md - implemented product capabilities\n[/Sources]"}
+{"kind":"slide","id":"sl/z8cjqh","slide":4,"title":"PRODUCT FLOW","textShapes":20}
+{"kind":"textbox","id":"sh/8zmdgf6t","slide":4,"name":"section-4","text":"PRODUCT FLOW","textPreview":"PRODUCT FLOW","textChars":12,"textLines":1,"bbox":[48,30,430,28]}
+{"kind":"textbox","id":"sh/7ydc7a58","slide":4,"name":"title-4","text":"Five connected stages turn preferences into a usable travel plan.","textPreview":"Five connected stages turn preferences into a usable travel plan.","textChars":65,"textLines":1,"bbox":[48,68,1178,80]}
+{"kind":"shape","id":"sh/mx4ve5on","slide":4,"name":"rule-152","bbox":[48,152,1184,1]}
+{"kind":"textbox","id":"sh/lwvu5k72","slide":4,"name":"slide-number-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1182,674,50,20]}
+{"kind":"textbox","id":"sh/kvmdcf6h","slide":4,"name":"text-48-184","text":"The system combines structured AI output with deterministic routing, pricing, persistence, and provider fallbacks.","textPreview":"The system combines structured AI output with deterministic routing, pricing, persistence, and provider fallbacks.","textChars":114,"textLines":1,"bbox":[48,184,990,54]}
+{"kind":"shape","id":"sh/zutc3apw","slide":4,"name":"flow-arrow-1","bbox":[234,370,54,28]}
+{"kind":"shape","id":"sh/ytkva5ob","slide":4,"name":"flow-arrow-2","bbox":[478,370,54,28]}
+{"kind":"shape","id":"sh/x8bu1076","slide":4,"name":"flow-arrow-3","bbox":[722,370,54,28]}
+{"kind":"shape","id":"sh/c72d8v6l","slide":4,"name":"flow-arrow-4","bbox":[966,370,54,28]}
+{"kind":"shape","id":"sh/mtgj214j","slide":4,"name":"flow-node-1","bbox":[50,272,194,252]}
+{"kind":"textbox","id":"sh/nupkb6l4","slide":4,"name":"text-70-294","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[70,294,60,44]}
+{"kind":"textbox","id":"sh/8vyl4bm9","slide":4,"name":"text-70-348","text":"Set intent","textPreview":"Set intent","textChars":10,"textLines":1,"bbox":[70,348,150,34]}
+{"kind":"textbox","id":"sh/9w72dg3u","slide":4,"name":"text-70-406","text":"Dates, budget, travelers, transport, pace, interests","textPreview":"Dates, budget, travelers, transport, pace, interests","textChars":52,"textLines":1,"bbox":[70,406,154,90]}
+{"kind":"shape","id":"sh/ypwjyh47","slide":4,"name":"flow-node-2","bbox":[294,272,194,252]}
+{"kind":"textbox","id":"sh/zqpk7mls","slide":4,"name":"text-314-294","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[314,294,60,44]}
+{"kind":"textbox","id":"sh/0ry10rmd","slide":4,"name":"text-314-348","text":"Discover","textPreview":"Discover","textChars":8,"textLines":1,"bbox":[314,348,150,34]}
+{"kind":"textbox","id":"sh/ls729w3y","slide":4,"name":"text-314-406","text":"Gemini returns schema-validated destination ideas","textPreview":"Gemini returns schema-validated destination ideas","textChars":49,"textLines":1,"bbox":[314,406,154,90]}
+{"kind":"shape","id":"sh/q1wjuh4b","slide":4,"name":"flow-node-3","bbox":[538,272,194,252]}
+{"kind":"textbox","id":"sh/b25k3m5w","slide":4,"name":"text-558-294","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[558,294,60,44]}
+{"kind":"textbox","id":"sh/f61gbilo","slide":4,"name":"text-558-348","text":"Verify","textPreview":"Verify","textChars":6,"textLines":1,"bbox":[558,348,150,34]}
+{"kind":"textbox","id":"sh/e5sz2dk3","slide":4,"name":"text-558-406","text":"Geocoding keeps only map-backed places","textPreview":"Geocoding keeps only map-backed places","textChars":38,"textLines":1,"bbox":[558,406,154,90]}
+{"kind":"shape","id":"sh/183idsje","slide":4,"name":"flow-node-4","bbox":[782,272,194,252]}
+{"kind":"textbox","id":"sh/g7uh4n29","slide":4,"name":"text-802-294","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[802,294,60,44]}
+{"kind":"textbox","id":"sh/3ul0fi1k","slide":4,"name":"text-802-348","text":"Build","textPreview":"Build","textChars":5,"textLines":1,"bbox":[802,348,150,34]}
+{"kind":"textbox","id":"sh/2tcz6dkz","slide":4,"name":"text-802-406","text":"Daily road routes and stays are sequenced","textPreview":"Daily road routes and stays are sequenced","textChars":41,"textLines":1,"bbox":[802,406,154,90]}
+{"kind":"shape","id":"sh/pw3ihsjq","slide":4,"name":"flow-node-5","bbox":[1026,272,194,252]}
+{"kind":"textbox","id":"sh/ovuh8n25","slide":4,"name":"text-1046-294","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1046,294,60,44]}
+{"kind":"textbox","id":"sh/jyhg3ylg","slide":4,"name":"text-1046-348","text":"Complete","textPreview":"Complete","textChars":8,"textLines":1,"bbox":[1046,348,150,34]}
+{"kind":"textbox","id":"sh/ix8zutkv","slide":4,"name":"text-1046-406","text":"LKR budget, exports, sharing, and versions","textPreview":"LKR budget, exports, sharing, and versions","textChars":42,"textLines":1,"bbox":[1046,406,154,90]}
+{"kind":"textbox","id":"sh/o7m5oveh","slide":4,"name":"text-188-568","text":"Every stage saves state so the traveler can edit manually, retry, cancel, or restore an earlier plan.","textPreview":"Every stage saves state so the traveler can edit manually, retry, cancel, or restore an earlier plan.","textChars":101,"textLines":1,"bbox":[188,568,904,54]}
+{"kind":"notes","id":"nt/z8cjqh","slide":4,"text":"Emphasize that AI is used where it adds judgment, while routes, validation, budgets, and orchestration remain explicit application logic.\n\n[Sources]\n- D:/GitHub/Magic-Trip-Planner-Idealize/README.md - How the AI workflow works\n- D:/GitHub/Magic-Trip-Planner-Idealize/Backend/app/workers/planning_worker.py - durable planning sequence\n- D:/GitHub/Magic-Trip-Planner-Idealize/Backend/app/agents/route_agent.py - deterministic route planning\n[/Sources]"}
+{"kind":"slide","id":"sl/k9r4na","slide":5,"title":"PRODUCT PROOF","textShapes":14}
+{"kind":"textbox","id":"sh/zidofm1o","slide":5,"name":"section-5","text":"PRODUCT PROOF","textPreview":"PRODUCT PROOF","textChars":13,"textLines":1,"bbox":[48,30,430,28]}
+{"kind":"textbox","id":"sh/kjm58ri9","slide":5,"name":"title-5","text":"The MVP is built for real planning, not a one-shot demo.","textPreview":"The MVP is built for real planning, not a one-shot demo.","textChars":56,"textLines":1,"bbox":[48,68,1178,80]}
+{"kind":"shape","id":"sh/lkv6hwju","slide":5,"name":"rule-152","bbox":[48,152,1184,1]}
+{"kind":"textbox","id":"sh/atknih07","slide":5,"name":"slide-number-5","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1182,674,50,20]}
+{"kind":"textbox","id":"sh/butob21s","slide":5,"name":"text-48-182","text":"The current web application combines guided manual planning with a recoverable one-click workflow.","textPreview":"The current web application combines guided manual planning with a recoverable one-click workflow.","textChars":98,"textLines":1,"bbox":[48,182,1110,54]}
+{"kind":"shape","id":"sh/cv25k7id","slide":5,"name":"rect-48-282","bbox":[48,282,360,286]}
+{"kind":"textbox","id":"sh/xgv6dcji","slide":5,"name":"text-76-320","text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[76,320,160,94]}
+{"kind":"textbox","id":"sh/2pknex0v","slide":5,"name":"text-76-430","text":"guided stages","textPreview":"guided stages","textChars":13,"textLines":1,"bbox":[76,430,300,38]}
+{"kind":"textbox","id":"sh/nqt4721g","slide":5,"name":"text-76-486","text":"Preferences through final summary","textPreview":"Preferences through final summary","textChars":33,"textLines":1,"bbox":[76,486,300,58]}
+{"kind":"shape","id":"sh/7mt8z2xg","slide":5,"name":"rect-448-282","bbox":[448,282,360,286]}
+{"kind":"textbox","id":"sh/6lk7qxwb","slide":5,"name":"text-476-320","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[476,320,160,94]}
+{"kind":"textbox","id":"sh/t8bqlcfm","slide":5,"name":"text-476-430","text":"takeaway paths","textPreview":"takeaway paths","textChars":14,"textLines":1,"bbox":[476,430,300,38]}
+{"kind":"textbox","id":"sh/8729s7e1","slide":5,"name":"text-476-486","text":"Print/PDF, calendar, share, offline HTML","textPreview":"Print/PDF, calendar, share, offline HTML","textChars":40,"textLines":1,"bbox":[476,486,300,58]}
+{"kind":"shape","id":"sh/vad8n2ds","slide":5,"name":"rect-848-282","bbox":[848,282,360,286]}
+{"kind":"textbox","id":"sh/u9kruhw7","slide":5,"name":"text-876-320","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[876,320,160,94]}
+{"kind":"textbox","id":"sh/hcvqpcvy","slide":5,"name":"text-876-430","text":"collaboration roles","textPreview":"collaboration roles","textChars":19,"textLines":1,"bbox":[876,430,300,38]}
+{"kind":"textbox","id":"sh/gbm9w7ed","slide":5,"name":"text-876-486","text":"Viewer and editor access","textPreview":"Viewer and editor access","textChars":24,"textLines":1,"bbox":[876,486,300,58]}
+{"kind":"textbox","id":"sh/be98rixo","slide":5,"name":"text-70-603","text":"Also implemented: background-job progress, cancel/retry, checkpoints, provider caching, quota controls, security headers, and responsive PWA metadata.","textPreview":"Also implemented: background-job progress, cancel/retry, checkpoints, provider caching, quota controls, security headers, and responsive ...","textChars":150,"textLines":1,"bbox":[70,603,1136,46]}
+{"kind":"notes","id":"nt/k9r4na","slide":5,"text":"Use these counts as proof of implemented breadth, then mention reliability features as the reason the app can support real trips.\n\n[Sources]\n- D:/GitHub/Magic-Trip-Planner-Idealize/Frontend/src/components/planner/PlannerWorkspace.tsx - eight-stage workspace\n- D:/GitHub/Magic-Trip-Planner-Idealize/Frontend/src/components/planner/budget.tsx - print, calendar, and share outputs\n- D:/GitHub/Magic-Trip-Planner-Idealize/Frontend/src/components/planner/TravelerToolkit.tsx - offline HTML export\n- D:/GitHub/Magic-Trip-Planner-Idealize/Frontend/src/components/planner/ShareTrip.tsx - viewer/editor roles\n[/Sources]"}
+{"kind":"slide","id":"sl/p8558l","slide":6,"title":"DIFFERENTIATION","textShapes":28}
+{"kind":"textbox","id":"sh/0zq9sbi1","slide":6,"name":"section-6","text":"DIFFERENTIATION","textPreview":"DIFFERENTIATION","textChars":15,"textLines":1,"bbox":[48,30,430,28]}
+{"kind":"textbox","id":"sh/zyh8j61g","slide":6,"name":"title-6","text":"The advantage is continuity across the whole journey.","textPreview":"The advantage is continuity across the whole journey.","textChars":53,"textLines":1,"bbox":[48,68,1178,80]}
+{"kind":"shape","id":"sh/yxorq10v","slide":6,"name":"rule-152","bbox":[48,152,1184,1]}
+{"kind":"textbox","id":"sh/dwfqhwja","slide":6,"name":"slide-number-6","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1182,674,50,20]}
+{"kind":"textbox","id":"sh/cv69orip","slide":6,"name":"text-48-180","text":"Instead of adding another discovery screen, Magic Trip Planner keeps the same decisions connected and editable.","textPreview":"Instead of adding another discovery screen, Magic Trip Planner keeps the same decisions connected and editable.","textChars":111,"textLines":1,"bbox":[48,180,1120,44]}
+{"kind":"shape","id":"sh/bux8fm14","slide":6,"name":"rect-48-258","bbox":[48,258,340,58]}
+{"kind":"textbox","id":"sh/qto7mh0j","slide":6,"name":"text-64-275","text":"CAPABILITY","textPreview":"CAPABILITY","textChars":10,"textLines":1,"bbox":[64,275,308,28]}
+{"kind":"shape","id":"sh/xsjqtgze","slide":6,"name":"rect-388-258","bbox":[388,258,250,58]}
+{"kind":"textbox","id":"sh/wra90vit","slide":6,"name":"text-404-275","text":"MANUAL TABS","textPreview":"MANUAL TABS","textChars":11,"textLines":1,"bbox":[404,275,218,28]}
+{"kind":"shape","id":"sh/u5cry9sz","slide":6,"name":"rect-638-258","bbox":[638,258,250,58]}
+{"kind":"textbox","id":"sh/f65s7utk","slide":6,"name":"text-654-275","text":"GENERIC AI CHAT","textPreview":"GENERIC AI CHAT","textChars":15,"textLines":1,"bbox":[654,275,218,28]}
+{"kind":"shape","id":"sh/g7e90za5","slide":6,"name":"rect-888-258","bbox":[888,258,344,58]}
+{"kind":"textbox","id":"sh/hsna94bq","slide":6,"name":"text-904-275","text":"MAGIC TRIP PLANNER","textPreview":"MAGIC TRIP PLANNER","textChars":18,"textLines":1,"bbox":[904,275,312,28]}
+{"kind":"shape","id":"sh/61crups3","slide":6,"name":"rect-48-316","bbox":[48,316,340,67]}
+{"kind":"textbox","id":"sh/72l83ut8","slide":6,"name":"text-62-335","text":"Sri Lanka-specific context","textPreview":"Sri Lanka-specific context","textChars":26,"textLines":1,"bbox":[62,335,312,34]}
+{"kind":"shape","id":"sh/s3u9wzat","slide":6,"name":"rect-388-316","bbox":[388,316,250,67]}
+{"kind":"textbox","id":"sh/t43a54be","slide":6,"name":"text-402-335","text":"User assembles","textPreview":"User assembles","textChars":14,"textLines":1,"bbox":[402,335,222,34]}
+{"kind":"shape","id":"sh/qxgr6ts7","slide":6,"name":"rect-638-316","bbox":[638,316,250,67]}
+{"kind":"textbox","id":"sh/rypsfets","slide":6,"name":"text-652-335","text":"Prompt dependent","textPreview":"Prompt dependent","textChars":16,"textLines":1,"bbox":[652,335,222,34]}
+{"kind":"shape","id":"sh/n2hor694","slide":6,"name":"rect-888-316","bbox":[888,316,344,67]}
+{"kind":"textbox","id":"sh/mh87ylsj","slide":6,"name":"text-902-335","text":"Built in","textPreview":"Built in","textChars":8,"textLines":1,"bbox":[902,335,316,34]}
+{"kind":"shape","id":"sh/94z6tgra","slide":6,"name":"rect-48-383","bbox":[48,383,340,67]}
+{"kind":"textbox","id":"sh/83qp0bqp","slide":6,"name":"text-62-402","text":"Map-verified places","textPreview":"Map-verified places","textChars":19,"textLines":1,"bbox":[62,402,312,34]}
+{"kind":"shape","id":"sh/v61ovq90","slide":6,"name":"rect-388-383","bbox":[388,383,250,67]}
+{"kind":"textbox","id":"sh/a5872l8v","slide":6,"name":"text-402-402","text":"Manual checks","textPreview":"Manual checks","textChars":13,"textLines":1,"bbox":[402,402,222,34]}
+{"kind":"shape","id":"sh/x8j6x0r6","slide":6,"name":"rect-638-383","bbox":[638,383,250,67]}
+{"kind":"textbox","id":"sh/w7ap4vql","slide":6,"name":"text-652-402","text":"Not guaranteed","textPreview":"Not guaranteed","textChars":14,"textLines":1,"bbox":[652,402,222,34]}
+{"kind":"shape","id":"sh/ja1oza9c","slide":6,"name":"rect-888-383","bbox":[888,383,344,67]}
+{"kind":"textbox","id":"sh/i9s7658r","slide":6,"name":"text-902-402","text":"Coordinate-backed","textPreview":"Coordinate-backed","textChars":17,"textLines":1,"bbox":[902,402,316,34]}
+{"kind":"shape","id":"sh/gfu5wf65","slide":6,"name":"rect-48-450","bbox":[48,450,340,67]}
+{"kind":"textbox","id":"sh/h036p07a","slide":6,"name":"text-62-469","text":"Daily route + overnight stays","textPreview":"Daily route + overnight stays","textChars":29,"textLines":1,"bbox":[62,469,312,34]}
+{"kind":"shape","id":"sh/udcnu5oz","slide":6,"name":"rect-388-450","bbox":[388,450,250,67]}
+{"kind":"textbox","id":"sh/felonapk","slide":6,"name":"text-402-469","text":"Separate tools","textPreview":"Separate tools","textChars":14,"textLines":1,"bbox":[402,469,222,34]}
+{"kind":"shape","id":"sh/sba5sv6t","slide":6,"name":"rect-638-450","bbox":[638,450,250,67]}
+{"kind":"textbox","id":"sh/tcj6l07e","slide":6,"name":"text-652-469","text":"Text suggestion","textPreview":"Text suggestion","textChars":15,"textLines":1,"bbox":[652,469,222,34]}
+{"kind":"shape","id":"sh/69snqlon","slide":6,"name":"rect-888-450","bbox":[888,450,344,67]}
+{"kind":"textbox","id":"sh/7a1ojqp8","slide":6,"name":"text-902-469","text":"Connected workflow","textPreview":"Connected workflow","textChars":18,"textLines":1,"bbox":[902,469,316,34]}
+{"kind":"shape","id":"sh/k7a5ov6x","slide":6,"name":"rect-48-517","bbox":[48,517,340,67]}
+{"kind":"textbox","id":"sh/58jmhg72","slide":6,"name":"text-62-536","text":"LKR budget by saved route","textPreview":"LKR budget by saved route","textChars":25,"textLines":1,"bbox":[62,536,312,34]}
+{"kind":"shape","id":"sh/9cf2pwnu","slide":6,"name":"rect-388-517","bbox":[388,517,250,67]}
+{"kind":"textbox","id":"sh/8b6lwrmp","slide":6,"name":"text-402-536","text":"Manual estimate","textPreview":"Manual estimate","textChars":15,"textLines":1,"bbox":[402,536,222,34]}
+{"kind":"shape","id":"sh/naxknm54","slide":6,"name":"rect-638-517","bbox":[638,517,250,67]}
+{"kind":"textbox","id":"sh/mpo3uh4j","slide":6,"name":"text-652-536","text":"Generic estimate","textPreview":"Generic estimate","textChars":16,"textLines":1,"bbox":[652,536,222,34]}
+{"kind":"shape","id":"sh/xgz2twn6","slide":6,"name":"rect-888-517","bbox":[888,517,344,67]}
+{"kind":"textbox","id":"sh/wfql0rml","slide":6,"name":"text-902-536","text":"Deterministic pricing","textPreview":"Deterministic pricing","textChars":21,"textLines":1,"bbox":[902,536,316,34]}
+{"kind":"shape","id":"sh/vehkrm50","slide":6,"name":"rect-48-584","bbox":[48,584,340,67]}
+{"kind":"textbox","id":"sh/ado3yh4f","slide":6,"name":"text-62-603","text":"Persistent, restorable plan","textPreview":"Persistent, restorable plan","textChars":27,"textLines":1,"bbox":[62,603,312,34]}
+{"kind":"shape","id":"sh/dkv2hsn2","slide":6,"name":"rect-388-584","bbox":[388,584,250,67]}
+{"kind":"textbox","id":"sh/cjm1o7mh","slide":6,"name":"text-402-603","text":"Scattered links","textPreview":"Scattered links","textChars":15,"textLines":1,"bbox":[402,603,222,34]}
+{"kind":"shape","id":"sh/id0r29g3","slide":6,"name":"rect-638-584","bbox":[638,584,250,67]}
+{"kind":"textbox","id":"sh/3e98beho","slide":6,"name":"text-652-603","text":"Conversation only","textPreview":"Conversation only","textChars":17,"textLines":1,"bbox":[652,603,222,34]}
+{"kind":"shape","id":"sh/4fi94jyt","slide":6,"name":"rect-888-584","bbox":[888,584,344,67]}
+{"kind":"textbox","id":"sh/5grqdoze","slide":6,"name":"text-902-603","text":"Jobs + versions","textPreview":"Jobs + versions","textChars":15,"textLines":1,"bbox":[902,603,316,34]}
+{"kind":"notes","id":"nt/p8558l","slide":6,"text":"Frame the comparison around workflow continuity rather than claiming that every alternative lacks useful discovery or booking features.\n\n[Sources]\n- D:/GitHub/Magic-Trip-Planner-Idealize/README.md - implemented product capabilities and current limitations\n- Comparison is qualitative and category-level; no named competitor claims are made.\n[/Sources]"}
+{"kind":"slide","id":"sl/qeyv98","slide":7,"title":"MARKET FEASIBILITY","textShapes":11}
+{"kind":"textbox","id":"sh/i503a58j","slide":7,"name":"text-48-28","text":"MARKET FEASIBILITY","textPreview":"MARKET FEASIBILITY","textChars":18,"textLines":1,"bbox":[48,28,350,24]}
+{"kind":"textbox","id":"sh/58rmlk7a","slide":7,"name":"market-title","text":"Sri Lanka's tourism recovery creates a timely digital planning opportunity.","textPreview":"Sri Lanka's tourism recovery creates a timely digital planning opportunity.","textChars":75,"textLines":1,"bbox":[48,65,1168,72]}
+{"kind":"textbox","id":"sh/k7ilcfqp","slide":7,"name":"text-60-162","text":"Tourist arrivals","textPreview":"Tourist arrivals","textChars":16,"textLines":1,"bbox":[60,162,450,28]}
+{"kind":"shape","id":"sh/a103658n","slide":7,"name":"rect-674-162","bbox":[674,162,556,124]}
+{"kind":"textbox","id":"sh/x4r2hk7y","slide":7,"name":"text-704-182","text":"2.36M","textPreview":"2.36M","textChars":5,"textLines":1,"bbox":[704,182,250,56]}
+{"kind":"textbox","id":"sh/w3il8fqt","slide":7,"name":"text-954-196","text":"tourist arrivals in 2025","textPreview":"tourist arrivals in 2025","textChars":24,"textLines":1,"bbox":[954,196,240,52]}
+{"kind":"shape","id":"sh/fyt4rupc","slide":7,"name":"rect-674-312","bbox":[674,312,556,124]}
+{"kind":"textbox","id":"sh/uxk3ip8r","slide":7,"name":"text-704-332","text":"+15.1%","textPreview":"+15.1%","textChars":6,"textLines":1,"bbox":[704,332,250,56]}
+{"kind":"textbox","id":"sh/krytcry1","slide":7,"name":"text-954-346","text":"growth versus 2024","textPreview":"growth versus 2024","textChars":18,"textLines":1,"bbox":[954,346,240,52]}
+{"kind":"shape","id":"sh/5s7ulwfm","slide":7,"name":"rect-674-462","bbox":[674,462,556,124]}
+{"kind":"textbox","id":"sh/i5wbahgv","slide":7,"name":"text-704-482","text":"US$3.2B","textPreview":"US$3.2B","textChars":7,"textLines":1,"bbox":[704,482,250,56]}
+{"kind":"textbox","id":"sh/jqpsjmxg","slide":7,"name":"text-954-496","text":"tourism earnings in 2025","textPreview":"tourism earnings in 2025","textChars":24,"textLines":1,"bbox":[954,496,240,52]}
+{"kind":"textbox","id":"sh/w3et87y5","slide":7,"name":"text-686-628","text":"SLTDA's tourism strategy explicitly prioritizes technology-based visitor services and a stronger digital footprint.","textPreview":"SLTDA's tourism strategy explicitly prioritizes technology-based visitor services and a stronger digital footprint.","textChars":115,"textLines":1,"bbox":[686,628,520,54]}
+{"kind":"textbox","id":"sh/x4nahcfa","slide":7,"name":"text-1182-674","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1182,674,50,20]}
+{"kind":"chart","id":"ch/vmpsr6pw","slide":7,"name":"","chartType":"bar","bbox":[48,198,570,412]}
+{"kind":"notes","id":"nt/qeyv98","slide":7,"text":"Use the market data as evidence of opportunity, then connect it to the official policy signal for technology-enabled visitor services.\n\n[Sources]\n- https://sltda.gov.lk/en/monthly-tourist-arrivals-reports-2025 - 2024 and 2025 tourist arrivals and 15.1% growth\n- https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/publications/aer/2025/en/25_Featured_Chart_08.pdf - 2025 tourism earnings of US$3.219 billion\n- https://www.sltda.gov.lk/storage/common_media/Sri_Lanka-Final_V6_Edited850147500.pdf - technology-based tourism sector priority\n[/Sources]"}
+{"kind":"slide","id":"sl/po2bib","slide":8,"title":"GO TO MARKET","textShapes":17}
+{"kind":"textbox","id":"sh/4nux0n6d","slide":8,"name":"section-8","text":"GO TO MARKET","textPreview":"GO TO MARKET","textChars":12,"textLines":1,"bbox":[48,30,430,28]}
+{"kind":"textbox","id":"sh/3mlg7ips","slide":8,"name":"title-8","text":"Start focused, then expand with the travel ecosystem.","textPreview":"Start focused, then expand with the travel ecosystem.","textChars":53,"textLines":1,"bbox":[48,68,1178,80]}
+{"kind":"shape","id":"sh/2lcfydo7","slide":8,"name":"rule-152","bbox":[48,152,1184,1]}
+{"kind":"textbox","id":"sh/hk3y5s7m","slide":8,"name":"slide-number-8","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1182,674,50,20]}
+{"kind":"textbox","id":"sh/gzuxwn6h","slide":8,"name":"text-48-182","text":"The first objective is repeatable planning adoption; monetization follows once traveler intent and partner value are validated.","textPreview":"The first objective is repeatable planning adoption; monetization follows once traveler intent and partner value are validated.","textChars":127,"textLines":1,"bbox":[48,182,1100,48]}
+{"kind":"textbox","id":"sh/fy1g3ipw","slide":8,"name":"text-48-270","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[48,270,70,50]}
+{"kind":"textbox","id":"sh/uxsfudob","slide":8,"name":"text-48-332","text":"Independent visitors","textPreview":"Independent visitors","textChars":20,"textLines":1,"bbox":[48,332,350,42]}
+{"kind":"textbox","id":"sh/twjy187q","slide":8,"name":"text-48-392","text":"International travelers who want a Sri Lanka-specific route, stays, and costs before arrival.","textPreview":"International travelers who want a Sri Lanka-specific route, stays, and costs before arrival.","textChars":93,"textLines":1,"bbox":[48,392,350,94]}
+{"kind":"shape","id":"sh/svaxs365","slide":8,"name":"rule-506","bbox":[48,506,350,1]}
+{"kind":"textbox","id":"sh/ypsbypsf","slide":8,"name":"text-48-528","text":"Reach: SEO, creator itineraries, university and travel communities","textPreview":"Reach: SEO, creator itineraries, university and travel communities","textChars":66,"textLines":1,"bbox":[48,528,350,76]}
+{"kind":"textbox","id":"sh/jq1cru90","slide":8,"name":"text-448-270","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[448,270,70,50]}
+{"kind":"textbox","id":"sh/krat0zal","slide":8,"name":"text-448-332","text":"Groups and diaspora","textPreview":"Groups and diaspora","textChars":19,"textLines":1,"bbox":[448,332,350,42]}
+{"kind":"textbox","id":"sh/lcjut4r6","slide":8,"name":"text-448-392","text":"Friends, families, and returning Sri Lankans coordinating shared decisions and realistic budgets.","textPreview":"Friends, families, and returning Sri Lankans coordinating shared decisions and realistic budgets.","textChars":97,"textLines":1,"bbox":[448,392,350,94]}
+{"kind":"shape","id":"sh/al8bupsj","slide":8,"name":"rule-506","bbox":[448,506,350,1]}
+{"kind":"textbox","id":"sh/bmhsnu94","slide":8,"name":"text-448-528","text":"Reach: referrals, collaborative planning, community partnerships","textPreview":"Reach: referrals, collaborative planning, community partnerships","textChars":64,"textLines":1,"bbox":[448,528,350,76]}
+{"kind":"textbox","id":"sh/wnatwza9","slide":8,"name":"text-848-270","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[848,270,70,50]}
+{"kind":"textbox","id":"sh/xojap4ru","slide":8,"name":"text-848-332","text":"Travel partners","textPreview":"Travel partners","textChars":15,"textLines":1,"bbox":[848,332,350,42]}
+{"kind":"textbox","id":"sh/mh8bq5s7","slide":8,"name":"text-848-392","text":"Hotels, guides, and operators who benefit from higher-intent, better-prepared travelers.","textPreview":"Hotels, guides, and operators who benefit from higher-intent, better-prepared travelers.","textChars":88,"textLines":1,"bbox":[848,392,350,94]}
+{"kind":"shape","id":"sh/nihsjats","slide":8,"name":"rule-506","bbox":[848,506,350,1]}
+{"kind":"textbox","id":"sh/rmd8r6pk","slide":8,"name":"text-848-528","text":"Reach: pilot integrations and curated local inventory","textPreview":"Reach: pilot integrations and curated local inventory","textChars":53,"textLines":1,"bbox":[848,528,350,76]}
+{"kind":"shape","id":"sh/q147y18z","slide":8,"name":"rect-48-628","bbox":[48,628,1184,48]}
+{"kind":"textbox","id":"sh/dofqtg7q","slide":8,"name":"text-72-641","text":"COMMERCIAL MODEL TO VALIDATE: freemium planning + affiliate referrals + B2B white-label/API","textPreview":"COMMERCIAL MODEL TO VALIDATE: freemium planning + affiliate referrals + B2B white-label/API","textChars":91,"textLines":1,"bbox":[72,641,1136,24]}
+{"kind":"notes","id":"nt/po2bib","slide":8,"text":"Be explicit that the commercial model is the validation plan, not current revenue. The near-term KPI is completed, shared, or exported itineraries.\n\n[Sources]\n- Commercial model and acquisition channels are team hypotheses for validation; no current revenue or traction is claimed.\n- D:/GitHub/Magic-Trip-Planner-Idealize/README.md - implemented sharing, collaboration, and export surfaces\n[/Sources]"}
+{"kind":"slide","id":"sl/an2v09","slide":9,"title":"FUTURE SCALABILITY","textShapes":14}
+{"kind":"textbox","id":"sh/edc32xsr","slide":9,"name":"section-9","text":"FUTURE SCALABILITY","textPreview":"FUTURE SCALABILITY","textChars":18,"textLines":1,"bbox":[48,30,430,28]}
+{"kind":"textbox","id":"sh/1g3mxcr2","slide":9,"name":"title-9","text":"A durable architecture supports reliability today and scale tomorrow.","textPreview":"A durable architecture supports reliability today and scale tomorrow.","textChars":69,"textLines":1,"bbox":[48,68,1178,80]}
+{"kind":"shape","id":"sh/0ful47ax","slide":9,"name":"rule-152","bbox":[48,152,1184,1]}
+{"kind":"textbox","id":"sh/ni54zm98","slide":9,"name":"slide-number-9","text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1182,674,50,20]}
+{"kind":"textbox","id":"sh/2hw36hsn","slide":9,"name":"text-48-182","text":"The system separates the fast user interface from long-running planning work, persistent state, and external providers.","textPreview":"The system separates the fast user interface from long-running planning work, persistent state, and external providers.","textChars":119,"textLines":1,"bbox":[48,182,1080,46]}
+{"kind":"shape","id":"sh/pknm1wre","slide":9,"name":"arch-arrow-1","bbox":[282,335,84,34]}
+{"kind":"shape","id":"sh/ojel8rat","slide":9,"name":"arch-arrow-2","bbox":[574,335,84,34]}
+{"kind":"shape","id":"sh/b6543m9k","slide":9,"name":"arch-arrow-3","bbox":[866,335,84,34]}
+{"kind":"shape","id":"sh/a5w3ahsz","slide":9,"name":"arch-arrow-down","bbox":[1028,468,34,88]}
+{"kind":"shape","id":"sh/k3mdcfe1","slide":9,"name":"rect-48-274","bbox":[48,274,242,154]}
+{"kind":"textbox","id":"sh/l4ve50fm","slide":9,"name":"text-68-308","text":"NEXT.JS PWA","textPreview":"NEXT.JS PWA","textChars":11,"textLines":1,"bbox":[68,308,202,32]}
+{"kind":"textbox","id":"sh/y14va5wv","slide":9,"name":"text-68-358","text":"Responsive traveler experience","textPreview":"Responsive traveler experience","textChars":30,"textLines":1,"bbox":[68,358,202,50]}
+{"kind":"shape","id":"sh/j2dw3axg","slide":9,"name":"rect-340-274","bbox":[340,274,242,154]}
+{"kind":"textbox","id":"sh/876xgfex","slide":9,"name":"text-360-308","text":"FASTAPI","textPreview":"FASTAPI","textChars":7,"textLines":1,"bbox":[360,308,202,32]}
+{"kind":"textbox","id":"sh/t8fe9kfi","slide":9,"name":"text-360-358","text":"Cookie-authenticated JSON API","textPreview":"Cookie-authenticated JSON API","textChars":29,"textLines":1,"bbox":[360,358,202,50]}
+{"kind":"shape","id":"sh/654fe5w7","slide":9,"name":"rect-632-274","bbox":[632,274,242,154]}
+{"kind":"textbox","id":"sh/76xw7axc","slide":9,"name":"text-652-308","text":"POSTGRESQL","textPreview":"POSTGRESQL","textChars":10,"textLines":1,"bbox":[652,308,202,32]}
+{"kind":"textbox","id":"sh/gv6xkze9","slide":9,"name":"text-652-358","text":"Trips, jobs, versions, caches","textPreview":"Trips, jobs, versions, caches","textChars":29,"textLines":1,"bbox":[652,358,202,50]}
+{"kind":"shape","id":"sh/hwfed4fu","slide":9,"name":"rect-924-274","bbox":[924,274,242,154]}
+{"kind":"textbox","id":"sh/psvexk7y","slide":9,"name":"text-944-308","text":"PLANNING WORKER","textPreview":"PLANNING WORKER","textChars":15,"textLines":1,"bbox":[944,308,202,32]}
+{"kind":"textbox","id":"sh/or2dof6d","slide":9,"name":"text-944-358","text":"Durable background orchestration","textPreview":"Durable background orchestration","textChars":32,"textLines":1,"bbox":[944,358,202,50]}
+{"kind":"shape","id":"sh/3qtwvups","slide":9,"name":"rect-834-548","bbox":[834,548,396,82]}
+{"kind":"textbox","id":"sh/2pkvmpo7","slide":9,"name":"text-858-566","text":"GEMINI + MAP / WEATHER / MEDIA / FARE PROVIDERS","textPreview":"GEMINI + MAP / WEATHER / MEDIA / FARE PROVIDERS","textChars":47,"textLines":1,"bbox":[858,566,348,44]}
+{"kind":"textbox","id":"sh/dgve147u","slide":9,"name":"text-230-648","text":"Structured AI output  •  provider cache  •  fallbacks  •  quota controls","textPreview":"Structured AI output  •  provider cache  •  fallbacks  •  quota controls","textChars":72,"textLines":1,"bbox":[230,648,820,22]}
+{"kind":"notes","id":"nt/an2v09","slide":9,"text":"Explain the scaling logic: web requests stay responsive, the worker can scale independently, and PostgreSQL keeps jobs and plans durable across process restarts.\n\n[Sources]\n- D:/GitHub/Magic-Trip-Planner-Idealize/README.md - architecture and production topology\n- D:/GitHub/Magic-Trip-Planner-Idealize/DEPLOYMENT.md - Vercel, Azure, worker, and PostgreSQL deployment model\n- D:/GitHub/Magic-Trip-Planner-Idealize/Backend/app/workers/planning_worker.py - durable worker orchestration\n[/Sources]"}
+{"kind":"slide","id":"sl/p5h3jg","slide":10,"title":"ROADMAP","textShapes":14}
+{"kind":"textbox","id":"sh/lszilwra","slide":10,"name":"section-10","text":"ROADMAP","textPreview":"ROADMAP","textChars":7,"textLines":1,"bbox":[48,30,430,28]}
+{"kind":"textbox","id":"sh/ypozq1sj","slide":10,"name":"title-10","text":"Scale through trust, reach, and transaction depth.","textPreview":"Scale through trust, reach, and transaction depth.","textChars":50,"textLines":1,"bbox":[48,68,1178,80]}
+{"kind":"shape","id":"sh/zqx0j694","slide":10,"name":"rule-152","bbox":[48,152,1184,1]}
+{"kind":"textbox","id":"sh/8vq1wba1","slide":10,"name":"slide-number-10","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1182,674,50,20]}
+{"kind":"textbox","id":"sh/9gzipgr6","slide":10,"name":"text-48-182","text":"The product can grow without changing its core promise: one reliable plan that stays useful before and during the trip.","textPreview":"The product can grow without changing its core promise: one reliable plan that stays useful before and during the trip.","textChars":119,"textLines":1,"bbox":[48,182,1090,46]}
+{"kind":"shape","id":"sh/mt8ju1sv","slide":10,"name":"rule-360","bbox":[128,360,1024,4]}
+{"kind":"shape","id":"sh/7uh0n69g","slide":10,"name":"rect-162-342","bbox":[162,342,36,36]}
+{"kind":"textbox","id":"sh/oz6hk7ah","slide":10,"name":"text-80-404","text":"NOW","textPreview":"NOW","textChars":3,"textLines":1,"bbox":[80,404,190,24]}
+{"kind":"textbox","id":"sh/pkfidcr2","slide":10,"name":"text-80-444","text":"Strengthen trust","textPreview":"Strengthen trust","textChars":16,"textLines":1,"bbox":[80,444,300,38]}
+{"kind":"textbox","id":"sh/9gj65cbu","slide":10,"name":"text-80-500","text":"Public deployment\nprovider monitoring\nreal-user usability tests","textPreview":"Public deployment | provider monitoring | real-user usability tests","textChars":63,"textLines":3,"bbox":[80,500,300,104]}
+{"kind":"shape","id":"sh/8fapc7ap","slide":10,"name":"rect-622-342","bbox":[622,342,36,36]}
+{"kind":"textbox","id":"sh/7e1o32t4","slide":10,"name":"text-486-404","text":"NEXT","textPreview":"NEXT","textChars":4,"textLines":1,"bbox":[486,404,190,24]}
+{"kind":"textbox","id":"sh/mds7ahsj","slide":10,"name":"text-486-444","text":"Grow planning value","textPreview":"Grow planning value","textChars":19,"textLines":1,"bbox":[486,444,300,38]}
+{"kind":"textbox","id":"sh/hk369wb6","slide":10,"name":"text-486-500","text":"Live availability signals\nlocal partner inventory\nmultilingual experience","textPreview":"Live availability signals | local partner inventory | multilingual experience","textChars":73,"textLines":3,"bbox":[486,500,300,104]}
+{"kind":"shape","id":"sh/wjapgral","slide":10,"name":"rect-1082-342","bbox":[1082,342,36,36]}
+{"kind":"textbox","id":"sh/vi1o7mt0","slide":10,"name":"text-894-404","text":"SCALE","textPreview":"SCALE","textChars":5,"textLines":1,"bbox":[894,404,190,24]}
+{"kind":"textbox","id":"sh/uhs7ehsf","slide":10,"name":"text-894-444","text":"Deepen transactions","textPreview":"Deepen transactions","textChars":19,"textLines":1,"bbox":[894,444,300,38]}
+{"kind":"textbox","id":"sh/583qdwb2","slide":10,"name":"text-894-500","text":"Booking and payments\npartner API / white-label\nregional destination expansion","textPreview":"Booking and payments | partner API / white-label | regional destination expansion","textChars":77,"textLines":3,"bbox":[894,500,300,104]}
+{"kind":"textbox","id":"sh/47up4rah","slide":10,"name":"text-166-628","text":"Current code already provides the foundations: modular providers, persistent data, role-based collaboration, and export surfaces.","textPreview":"Current code already provides the foundations: modular providers, persistent data, role-based collaboration, and export surfaces.","textChars":129,"textLines":1,"bbox":[166,628,948,42]}
+{"kind":"notes","id":"nt/p5h3jg","slide":10,"text":"Treat this as a sequence of validation gates. Trust and deployment quality come before transaction features or geographic expansion.\n\n[Sources]\n- D:/GitHub/Magic-Trip-Planner-Idealize/README.md - current capabilities and limitations\n- Roadmap items are planned future work, not currently implemented features.\n[/Sources]"}
+{"kind":"slide","id":"sl/xotalx","slide":11,"title":"MAGIC TRIP PLANNER","textShapes":8}
+{"kind":"textbox","id":"sh/87ax8fuh","slide":11,"name":"text-54-48","text":"MAGIC TRIP PLANNER","textPreview":"MAGIC TRIP PLANNER","textChars":18,"textLines":1,"bbox":[54,48,420,28]}
+{"kind":"textbox","id":"sh/761wfadw","slide":11,"name":"closing-title","text":"Make every Sri Lanka trip easier to plan - and easier to trust.","textPreview":"Make every Sri Lanka trip easier to plan - and easier to trust.","textChars":63,"textLines":1,"bbox":[54,142,1040,186]}
+{"kind":"shape","id":"sh/m58f6pcb","slide":11,"name":"rule-370","bbox":[54,370,118,7]}
+{"kind":"shape","id":"sh/l4zedkvq","slide":11,"name":"rect-56-431","bbox":[56,431,14,14]}
+{"kind":"textbox","id":"sh/k3qx4fu5","slide":11,"name":"text-88-426","text":"Working web application","textPreview":"Working web application","textChars":23,"textLines":1,"bbox":[88,426,510,30]}
+{"kind":"shape","id":"sh/z2hwbad0","slide":11,"name":"rect-56-489","bbox":[56,489,14,14]}
+{"kind":"textbox","id":"sh/yh8f25cf","slide":11,"name":"text-88-484","text":"Market-aligned Sri Lanka focus","textPreview":"Market-aligned Sri Lanka focus","textChars":30,"textLines":1,"bbox":[88,484,510,30]}
+{"kind":"shape","id":"sh/503yp4ba","slide":11,"name":"rect-56-547","bbox":[56,547,14,14]}
+{"kind":"textbox","id":"sh/4zuxgzup","slide":11,"name":"text-88-542","text":"Scalable full-stack foundation","textPreview":"Scalable full-stack foundation","textChars":30,"textLines":1,"bbox":[88,542,510,30]}
+{"kind":"shape","id":"sh/il43u9gr","slide":11,"name":"rect-730-418","bbox":[730,418,430,140]}
+{"kind":"textbox","id":"sh/jmx4nexc","slide":11,"name":"text-760-448","text":"READY FOR THE LIVE DEMO","textPreview":"READY FOR THE LIVE DEMO","textChars":23,"textLines":1,"bbox":[760,448,370,32]}
+{"kind":"textbox","id":"sh/4n6lwjyx","slide":11,"name":"text-760-498","text":"Public hosted link submitted separately","textPreview":"Public hosted link submitted separately","textChars":39,"textLines":1,"bbox":[760,498,370,34]}
+{"kind":"textbox","id":"sh/58fmpofi","slide":11,"name":"text-54-660","text":"IDEALIZE 2026  /  SEMI-FINALS","textPreview":"IDEALIZE 2026  /  SEMI-FINALS","textChars":29,"textLines":1,"bbox":[54,660,390,22]}
+{"kind":"notes","id":"nt/xotalx","slide":11,"text":"Close by resolving the opening promise, then transition immediately into the live product demonstration.\n\n[Sources]\n- D:/IDEALIZE 2026 - SEMI FINALS - SUBMISSION GUIDELINES.pdf - working public web application and pitch-deck requirements\n- D:/GitHub/Magic-Trip-Planner-Idealize/README.md - product and architecture summary\n[/Sources]"}

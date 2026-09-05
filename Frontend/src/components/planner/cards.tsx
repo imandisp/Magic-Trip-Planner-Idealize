@@ -103,11 +103,22 @@ export function HotelSuggestionCard({ hotel, selected, onToggle }: { hotel: Hote
 
 export function PlaceSearchCombobox({ tripId, onAdd }: { tripId: string; onAdd: (place: Place) => void }) {
   const [query, setQuery] = useState("");
-  const [items, setItems] = useState<Place[]>([]);
+  const [result, setResult] = useState<{ query: string; items: Place[]; error?: string }>({ query: "", items: [] });
   useEffect(() => {
     if (query.trim().length < 2) return;
-    const timer = window.setTimeout(() => destinationApi.searchPlaces(tripId, query).then((r) => setItems(r.suggestions)).catch(() => setItems([])), 350);
-    return () => window.clearTimeout(timer);
+    let current = true;
+    const timer = window.setTimeout(() => {
+      destinationApi.searchPlaces(tripId, query).then((response) => {
+        if (current) setResult({ query, items: response.suggestions });
+      }).catch(() => {
+        if (current) setResult({ query, items: [], error: "Place search failed. Please try again." });
+      });
+    }, 500);
+    return () => { current = false; window.clearTimeout(timer); };
+  }, [query, tripId]);
+  const searching = query.trim().length >= 2 && result.query !== query;
+  const visibleItems = query.trim().length >= 2 && result.query === query ? uniqueBy(result.items.filter(hasMapCoordinates), (place) => place.place_key || `${place.name}|${place.latitude}|${place.longitude}`) : [];
+  return () => window.clearTimeout(timer);
   }, [query, tripId]);
   const visibleItems = query.trim().length >= 2 ? uniqueBy(items.filter(hasMapCoordinates), (place) => `${place.place_key || ""}|${place.name}|${place.latitude ?? ""}|${place.longitude ?? ""}`) : [];
   return (
@@ -116,10 +127,12 @@ export function PlaceSearchCombobox({ tripId, onAdd }: { tripId: string; onAdd: 
         <Search className="absolute left-3 top-3 h-4 w-4 text-slate-400" />
         <input className={`${inputClass} pl-9`} placeholder="Search custom places, 2+ characters" value={query} onChange={(e) => setQuery(e.target.value)} />
       </label>
+      <p role="status" className="mt-2 text-sm text-slate-500">{searching ? "Searching places…" : query.trim().length >= 2 && result.query === query ? result.error || (!visibleItems.length ? "No matching places found. Try the attraction’s full name." : "") : ""}</p>
       <div className="mt-3 grid gap-2">
         {visibleItems.map((place, index) => (
           <button key={`${place.place_key || "place"}-${place.name}-${place.latitude ?? "x"}-${place.longitude ?? "y"}-${index}`} className="rounded-md border border-slate-200 p-3 text-left hover:bg-slate-50" type="button" onClick={() => onAdd(place)}>
-            <b>{place.display_name || place.name}</b>
+            <b>{place.name}</b>
+            {place.display_name && place.display_name !== place.name ? <span className="block text-xs text-slate-500">{place.display_name}</span> : null}
             <span className="block text-sm text-slate-500">{place.short_description || place.category}</span>
           </button>
         ))}

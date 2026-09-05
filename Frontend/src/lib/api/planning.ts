@@ -3,6 +3,7 @@ import type { PlanningJob, TripVersion } from "./types";
 
 export type FullPlanOptions = {
   use_saved_preferences: boolean;
+  use_selected_places?: boolean;
   interests: string[];
   trip_style: "relaxed" | "balanced" | "packed";
   special_notes: string;
